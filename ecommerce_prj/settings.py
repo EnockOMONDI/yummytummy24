@@ -124,7 +124,19 @@ DATABASES = {
     }
 }
 
+# To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
+# DATABASES = {
+#   'default': {
+#     'ENGINE': 'django.db.backends.postgresql',
+#     'NAME': 'yummy2',
+#     'USER': 'info',
+#     'PASSWORD': 'UlmhNj4pd0Yg',
+#     'HOST': 'ep-holy-term-a59wkrr8.us-east-2.aws.neon.tech',
+#     'PORT': '5432',
+#     'OPTIONS': {'sslmode': 'require'},
+#   }
+# }
 # DATABASES = {
 #     'default': {
 #         'ENGINE': env("ENGINE"),

@@ -1,4 +1,4 @@
-#!/home/novustell/Desktop/APPS/yummytummy/Kipekeecommerce1/env/bin/python3
+#!/home/novustell/Desktop/APPS/Kipekeecommerce1/env/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 

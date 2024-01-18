@@ -1,0 +1,131 @@
+
+{% extends "partials/ffless/basemain.html" %}
+{% load static %}
+
+{% block title %}
+   Food for Less 
+{% endblock title %}
+    
+{% block content %}
+{% load humanize %}
+{% include 'store/ffless/navbar.html' %}
+<section class="vs-blog-wrapper  space-md-bottom" id="blog" style="margin-top: 40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xl-3">
+                <aside class="sidebar-area">
+                    <div class="widget widget_search">
+                        <h3 class="widget_title"> {{blog_count.count}} Article(s) Found</h3>
+                    </div>
+                    <div class="widget widget_search">
+                        <h3 class="widget_title">Search</h3>
+                        <form action="" method="GET">
+                            <div class="blog_search_widget">
+                                <div class="input-group">
+                                  <input name="q" type="text" class="form-control" placeholder="Search Articles..." aria-label="Recipient's username">
+                                  <button style="border: 1px solid rgba(128, 128, 128, 0.247); background: none;"><i class="fas fa-search"></i></button>
+                                </div> 
+                              </div>
+                        </form>
+                    </div>
+                  
+                   
+                    <div class="widget widget_categories">
+                        <h3 class="widget_title">Categories</h3>
+                        <ul>
+                            {% for c in categories %}
+                            <li><a href="{% url 'blog:category_detail' c.slug %}">{{c.title}}</a> <span>({{ c.blog_set.count }})</span></li>
+                            {% endfor %}
+                        </ul>
+                     
+                   
+                    </div>
+                    <!-- <div class="widget">
+                        <h3 class="widget_title">Latest Posts</h3>
+                        <div class="vs-widget-recent-post">
+                            <div class="recent-post d-flex align-items-center">
+                                <div class="media-img"><img src="assets/img/widget/recent-1.jpg" width="100" height="73" alt="Recent Post Image"></div>
+                                <div class="media-body pl-30">
+                                    <h4 class="recent-post-title h5 mb-0"><a href="blog.html">100% organic healthy</a></h4><a href="#" class="text-theme fs-12">January 04, 2022</a></div>
+                            </div>
+                            <div class="recent-post d-flex align-items-center">
+                                <div class="media-img"><img src="assets/img/widget/recent-2.jpg" width="100" height="73" alt="Recent Post Image"></div>
+                                <div class="media-body pl-30">
+                                    <h4 class="recent-post-title h5 mb-0"><a href="blog.html">Keep Your Fruits frash</a></h4><a href="#" class="text-theme fs-12">March 04, 2022</a></div>
+                            </div>
+                            <div class="recent-post d-flex align-items-center">
+                                <div class="media-img"><img src="assets/img/widget/recent-3.jpg" width="100" height="73" alt="Recent Post Image"></div>
+                                <div class="media-body pl-30">
+                                    <h4 class="recent-post-title h5 mb-0"><a href="blog.html">Get natural healthy food</a></h4><a href="#" class="text-theme fs-12">April 04, 2022</a></div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="widget widget_tag_cloud">
+                        <h3 class="widget_title">Popular Tags</h3>
+                        <div class="tagcloud"><a href="blog.html">Healthy</a> <a href="blog.html">Smoothie</a> <a href="blog.html">Been</a> <a href="blog.html">Juice</a> <a href="blog.html">Vegetable</a></div>
+                    </div> -->
+                </aside>
+            </div>
+            <div class="col-lg-8 col-xl-9">
+                {% if query == "" or query == None %}
+                <h2 class="title">Trending Posts 🔥</h2>
+                {% else %}
+                <h2 class="title">Showing Results for "{{query}}"</h2>
+                {% endif %}
+                {% for p in featured_blog %}
+
+                <div class="vs-blog blog-grid grid-wide">
+                    <div class="blog-img image-scale-hover"><a href="{% url 'blog:blog-detail' p.pid %}"><img src="{{p.image.url}}" alt="Blog Image" class="w-100"></a></div>
+                    <div class="blog-content">
+                        <h4 class="blog-title fw-semibold"><a href="{% url 'blog:blog-detail' p.pid %}">{{p.title|truncatechars:27}}</a></h4>
+                        <div class="blog-meta">                <a href="{% url 'blog:blog-detail' p.pid %}">{{p.date|date:"d M, Y"}}
+                            <a href="{% url 'blog:blog-detail' p.pid %}">5 Views</a></div>
+                    </div>
+                </div>
+                {% endfor %}
+           
+                <div class="pagination-layout1 list-style-none text-start mt-40 mb-30">
+                    <ul>
+                        {% if blog.has_previous %}
+                        <li class="page-item">
+                        <a class="page-link" href="{% url 'blog:blog-list' %}?page={{blog.previous_page_number}}" tabindex="-1" aria-disabled="true"> <span class="fas fa-angle-left"></span></a>
+                        </li>
+                    {% endif %}
+                    
+                    {% if blog.has_next %}
+                        <li class="page-item">
+                        <a class="page-link" href="{% url 'blog:blog-list' %}?page={{blog.next_page_number}}"><span class="fas fa-angle-right"></span></a>
+                        </li>
+                    {% endif %}
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</section>
+<div class="bg2" data-bg-src="assets/img/footer/footer-bg-1.jpg">
+    <section class="vs-newsletter-wrpper">
+        <div class="container">
+            <div class="inner-wrap1 bg-fluid px-70 py-70" data-bg-src="assets/img/bg/newsletter-bg-1-1.png">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="form-title mb-30 mb-xl-0 text-center text-xl-start"><span class="sub-title3">Get Connected</span>
+                            <h2 class="h1 mb-0 lh-1">Subscribe <span class="fw-light text-theme">Newsletter</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-xl-6">
+                        <form action="#" class="newsletter-style1">
+                            <div class="form-group m-0"><input type="text" placeholder="Enter Your mail" class="form-control"> <button class="vs-btn style2">Subscribe Now</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'store/footer.html' %}
+
+  
+    
+    {% endblock %}

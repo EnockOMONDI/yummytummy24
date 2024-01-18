@@ -1,4 +1,5 @@
-{% extends "partials/base.html" %}
+{% extends "partials/ffless/basestandard.html" %}
+
 {% load static %}
 {% block title %}
   Dashboard
@@ -51,8 +52,8 @@
       labels: labels,
       datasets: [{
         label: 'Orders',
-        backgroundColor: '#b331ff ',
-        borderColor: '#b331ff',
+        backgroundColor: '#ffae00 ',
+        borderColor: '#ffae00',
         data: {{totalOrders}},
       }]
     };

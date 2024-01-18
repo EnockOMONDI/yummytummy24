@@ -1,3 +1,5 @@
+from django.conf.urls.static import static
+from django.conf import settings
 from django.urls import path, include
 from store import views
 
@@ -5,6 +7,8 @@ app_name = "store"
 
 urlpatterns = [
     path("", views.index, name="home"),
+    path("homemain/", views.indexmain, name="homemain"),
+    path("welcome/", views.welcome, name="welcome"),
     path("offer/", views.offer, name="offer"),
     path("category/", views.category_list, name="category"),
     path("shop/", views.shop, name="shop"),

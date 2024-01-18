@@ -3,7 +3,7 @@
 }
 
 .dashboard_navigationbar .dropbtn {
-    background-color: #443297;
+    background-color: #163020;
     border: none;
     border-radius: 5px;
     color: #ffffff;
@@ -24,7 +24,7 @@
 
 .dashboard_navigationbar .dropbtn:hover,
 .dashboard_navigationbar .dropbtn:focus {
-    background-color: #443297;
+    background-color: #163020;
     border: none;
     cursor: pointer;
     outline: none
@@ -85,7 +85,7 @@
 }
 
 .dashboard_navigationbar .show {
-    background-color: #443297;
+    background-color: #163020;
     display: block;
     -webkit-animation: fadein 2s;
     -moz-animation: fadein 2s;

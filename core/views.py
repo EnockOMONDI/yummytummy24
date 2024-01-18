@@ -163,6 +163,32 @@ def buyer_address(request):
     }
     return render(request, 'buyer/address.html', context)
 
+@login_required
+def buyer_welcome_address(request):
+    address = Address.objects.filter(user=request.user).order_by("-id")
+    billing_address = BillingAddress.objects.filter(user=request.user).order_by("-id")
+
+    form = AddressForm()
+    billing_form = BillingAddressForm()
+
+    if request.method == "POST":
+        form = AddressForm(request.POST)
+        if form.is_valid():
+            new_form = form.save(commit=False)
+            new_form.user = request.user
+            new_form.save()
+            messages.success(request, "New Address Added Successfully.")
+            return redirect("core:buyer-address")
+
+    
+
+    context = {
+        'address':address,
+        'form':form,
+        'billing_form':billing_form,
+        'billing_address':billing_address,
+    }
+    return render(request, 'buyer/ffless/addressmain.html', context)
 
 def make_address_default(request):
     id = request.GET['id']
@@ -271,8 +297,10 @@ def buyer_edit_billing_address(request, id):
 @login_required
 def buyer_wishlist(request):
     wishlist = Wishlist.objects.filter(user=request.user)
+    wishlist_count = wishlist.count()
     context = {
         'wishlist':wishlist,
+        'wishlist_count':wishlist_count,
     }
     return render(request, 'buyer/wishlist.html', context)
 

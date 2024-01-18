@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import render, redirect
+from store.views import *
 from django.urls import reverse
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
@@ -23,7 +24,7 @@ from userauths.forms import UserRegisterForm, ProfileUpdateForm, UserUpdateForm
 def Register(request, *args, **kwargs):
     if request.user.is_authenticated:
         messages.warning(request, f"Hey {request.user.username}, you are already logged in")
-        return redirect('store:home')   
+        return redirect('store:homemain')   
     try:
         earning_point = EarningPoints.objects.get()
     except:
@@ -50,7 +51,7 @@ def Register(request, *args, **kwargs):
             profile.wallet += 1
             profile.save()
 
-        return redirect('store:home')
+        return redirect('store:welcome')
     
     context = {'form':form}
     return render(request, 'userauths/sign-up.html', context)
@@ -73,7 +74,7 @@ def loginView(request):
                 login(request, user)
                 messages.success(request, "You are Logged In")
                 # return HttpResponseRedirect(request.GET['next'])
-                return redirect('store:home')
+                return redirect('store:homemain')
             else:
                 messages.error(request, 'Username or password does not exit.')
         
@@ -87,7 +88,7 @@ def loginViewTemp(request):
     # messages.success(request, f"Login for better experience.")
     if request.user.is_authenticated:
         messages.warning(request, "You are already logged in")
-        return redirect('store:home')
+        return redirect('store:homemain')
     
     if request.method == 'POST':
         email = request.POST.get('email')
@@ -102,7 +103,7 @@ def loginViewTemp(request):
                 login(request, user)
                 messages.success(request, "You are Logged In")
                 # return redirect()
-                next_url = request.GET.get("next", 'store:home')
+                next_url = request.GET.get("next", 'store:homemain')
                 return redirect(next_url)
                 
             else:

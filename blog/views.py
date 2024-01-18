@@ -29,7 +29,7 @@ def blogList(request):
         "blog": blog,
         "featured_blog": featured_blog,
     }
-    return render(request, 'blog/post-lists.html', context)
+    return render(request, 'blog/ffless/post-lists.html', context)
 
 def blogDetail(request, pid):
     post = Post.objects.get(status="published", pid=pid)

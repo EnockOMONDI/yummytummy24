@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404 ,redirect
+from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponseNotFound, JsonResponse
@@ -64,8 +65,50 @@ def index(request):
         "products":products,
         "top_selling_products":top_selling_products,
     }
-    return render(request, "store/index.html", context)
+    return render(request, 'store/ffless/indexmain.html', context)
+      
 
+
+def indexmain(request):
+    addon = BasicAddon.objects.filter().first()
+    brands = Brand.objects.filter(active=True)
+    products = Product.objects.filter(status="published", featured=True).order_by("-id")[:10]
+    top_selling_products = Product.objects.filter(status="published").order_by("-orders")[:10]
+    hot_deal = Product.objects.filter(status="published", hot_deal=True).first()
+    all_products = Product.objects.filter(status="published")[:16]
+    posts = Post.objects.filter(status="published", featured=True)
+    
+    query = request.GET.get("q")
+    if query:
+        products = products.filter(Q(title__icontains=query)|Q(description__icontains=query)).distinct()
+        
+    
+    
+   
+    return render(request, 'store/ffless/indexmain.html',  context={
+        'all_products':all_products,
+        'addon':addon,
+        'posts':posts,
+        'brands':brands,
+        'hot_deal':hot_deal,
+        'products':products,
+        'top_selling_products':top_selling_products,
+        'local_css_urls': [ " assets/css/style.css",
+                            " assets/css/bootstrap.min.css",
+                            " assets/css/fontawesome.min.css",
+                            " assets/css/app.min.css"],
+        'local_js_urls':  [
+                        "assets/js/main.js",
+                        "assets/js/ajax-mail.js",
+                        "assets/js/app.min.js",
+                        "assets/js/vscustom-carousel.min.js",
+                        "assets/js/vsmenu.min.js",
+                        "assets/js/jquery-3.6.0.min.js"
+                        ]
+    })
+
+def welcome(request):
+    return render(request, 'store/ffless/welcome.html')
 
 def category_list(request):
     categories_ = Category.objects.filter(active=True)

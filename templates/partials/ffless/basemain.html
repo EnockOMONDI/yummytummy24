@@ -1,0 +1,110 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="zxx" dir="ltr">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"><title> {% block title %} {% endblock %}</title>
+    <meta name="author" content="Kipekee Studio">
+    <meta name="description" content="Food for Less - Organic Food Store ">
+    <meta name="keywords" content="Food for Less - Organic Food Store ">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="preconnect" href="{% static 'assets/fonts1/index.html">
+    <link rel="preconnect" href="{% static 'assets/fonts2/index.html" crossorigin>
+    <link href="{% static 'assets/fonts1/css2e11a.css?family=Advent+Pro:wght@200;300;400;500;600;700&amp;family=Amatic+SC:wght@400;700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'assets/img/favicons/apple-icon-57x57.png' %}" >
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'assets/img/favicons/apple-icon-60x60.png' %}" >
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'assets/img/favicons/apple-icon-72x72.png' %}" >
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'assets/img/favicons/apple-icon-76x76.png' %}" >
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'assets/img/favicons/apple-icon-114x114.png' %}" >
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'assets/img/favicons/apple-icon-120x120.png' %}" >
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'assets/img/favicons/apple-icon-144x144.png' %}" >
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'assets/img/favicons/apple-icon-152x152.png' %}" >
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/img/favicons/apple-icon-180x180.png' %}" >
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'assets/img/favicons/android-icon-192x192.png' %}" >
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/img/favicons/favicon-32x32.png' %}" >
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'assets/img/favicons/favicon-96x96.png' %}" >
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/img/favicons/favicon-16x16.png' %}" >
+    <link rel="manifest" href="{% static 'assets/img/favicons/manifest.json' %}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{% static 'assets/img/favicons/ms-icon-144x144.png' %}" >
+    <meta name="theme-color" content="#ffffff">
+<!-- {% for local_css_url in local_css_urls %}
+    <link rel="stylesheet" href="{% static local_css_url %}">
+{% endfor %} -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/app.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+     </head>
+<body class="home-7">
+{% csrf_token %}
+
+    
+{% block content %}
+
+
+{% endblock %}
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}" ></script>
+<script src="{% static 'assets/js/app.min.js' %}" ></script>
+<script src="{% static 'assets/js/vscustom-carousel.min.js' %}" ></script>
+<script src="{% static 'assets/js/vsmenu.min.js' %}" ></script>
+<script src="{% static 'assets/js/ajax-mail.js' %}" ></script>
+<script src="{% static 'assets/js/main.js' %}" ></script>
+<script>
+    let popUp = document.getElementById("cookiePopup");
+    //When user clicks the accept button
+    document.getElementById("acceptCookie").addEventListener("click", () => {
+      //Create date object
+      let d = new Date();
+      //Increment the current time by 1 minute (cookie will expire after 1 minute)
+      d.setMinutes(2 + d.getMinutes());
+      //Create Cookie withname = myCookieName, value = thisIsMyCookie and expiry time=1 minute
+      document.cookie = "myCookieName=thisIsMyCookie; expires = " + d + ";";
+      //Hide the popup
+      popUp.classList.add("hide");
+      popUp.classList.remove("show");
+    });
+    //Check if cookie is already present
+    const checkCookie = () => {
+      //Read the cookie and split on "="
+      let input = document.cookie.split("=");
+      //Check for our cookie
+      if (input[0] == "myCookieName") {
+        //Hide the popup
+        popUp.classList.add("hide");
+        popUp.classList.remove("show");
+      } else {
+        //Show the popup
+        popUp.classList.add("show");
+        popUp.classList.remove("hide");
+      }
+    };
+    //Check if cookie exists when page loads
+    window.onload = () => {
+      setTimeout(() => {
+        checkCookie();
+      }, 2000);
+    };
+  </script>
+   <script>
+    // Dynamically update the current year
+    document.getElementById("currentYear").innerText = new Date().getFullYear();
+</script>
+      <script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js" ></script>
+    
+<!-- {% for local_js_url in local_js_urls %}
+<script src="{% static local_js_url %}"></script>
+{% endfor %}
+    -->
+</body>
+</html>
+
+

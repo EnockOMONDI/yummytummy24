@@ -12,6 +12,7 @@ urlpatterns = [
 
     # Shipping Address
     path("my-address/", views.buyer_address, name="buyer-address"),
+    path("welcome-address/", views.buyer_welcome_address, name="buyer_welcome_address"),
     path("my-address/edit/<id>/", views.buyer_edit_address, name="buyer-edit-address"),
     path("my-address/delete/<id>/", views.buyer_delete_address, name="buyer-delete-address"),
 

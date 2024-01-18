@@ -24,7 +24,7 @@
 }
 
 .header.stylehome1 {
-    background-color: #443297;
+    background-color: #163020;
     display: block;
     height: 140px;
     position: relative;
@@ -96,7 +96,7 @@
 .header.stylehome1.home6_style .advscrh_frm_btn .search-btn,
 .header.stylehome1.home7_style .advscrh_frm_btn .search-btn,
 .header.stylehome1.home9_style .advscrh_frm_btn .search-btn {
-    background-color: #443297;
+    background-color: #163020;
     color: #FFF
 }
 
@@ -1160,13 +1160,13 @@
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link:active,
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link:focus {
     background-color: #F3F5F6;
-    border-left: 2px solid #443297
+    border-left: 2px solid #163020
 }
 
 .leftside_navbar_menu.department_version .navbar-nav .nav-item .nav-link:hover,
 .leftside_navbar_menu.department_version .navbar-nav .nav-item .nav-link:active,
 .leftside_navbar_menu.department_version .navbar-nav .nav-item .nav-link:focus {
-    color: #443297
+    color: #163020
 }
 
 .leftside_navbar_menu.department_version .navbar-nav .nav-item .nav-link span,
@@ -1180,7 +1180,7 @@
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link:hover i,
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link:active i,
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link:focus i {
-    color: #443297
+    color: #163020
 }
 
 .leftside_navbar_menu .navbar-nav .nav-item .nav-link {
@@ -1234,7 +1234,7 @@
 .leftside_navbar_menu.department_version .navbar-nav .nav-item:active,
 .leftside_navbar_menu.department_version .navbar-nav .nav-item:focus {
     background-color: #F3F5F6;
-    border-left: 2px solid #443297
+    border-left: 2px solid #163020
 }
 
 .leftside_navbar_menu.department_version .navbar-nav .nav-item .nav-link:hover,

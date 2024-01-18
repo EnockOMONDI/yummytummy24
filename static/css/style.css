@@ -235,7 +235,7 @@ a img {
 .form-control:focus,
 textarea.form-control:active,
 textarea.form-control:focus {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -248,7 +248,7 @@ textarea.form-control {
 }
 
 textarea.form-control::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 iframe {
@@ -256,19 +256,19 @@ iframe {
 }
 
 ::selection {
-    background: #041e42;
+    background: #163020;
     color: #fff;
     text-shadow: none
 }
 
 ::-moz-selection {
-    background: #041e42;
+    background: #163020;
     color: #fff;
     text-shadow: none
 }
 
 ::-webkit-selection {
-    background: #041e42;
+    background: #163020;
     color: #fff;
     text-shadow: none
 }
@@ -287,7 +287,7 @@ h6,
 .h6 {
     font-family: "Jost", sans-serif;
     line-height: 1.4;
-    color: #041e42
+    color: #163020
 }
 
 h1 small,
@@ -316,7 +316,7 @@ h6 .small,
 .h6 .small {
     font-weight: 400;
     line-height: 1;
-    color: #041e42
+    color: #163020
 }
 
 h1 a,
@@ -331,7 +331,7 @@ h6 a,
 .h4 a,
 .h5 a,
 .h6 a {
-    color: #041e42;
+    color: #163020;
     font-weight: 500
 }
 
@@ -399,7 +399,7 @@ address {
 }
 
 .heading-color {
-    color: #041e42 !important
+    color: #163020 !important
 }
 
 .border-left {
@@ -467,19 +467,19 @@ address {
 }
 
 .text-thm {
-    color: #b331ff !important
+    color: #ffae00 !important
 }
 
 .hvr-text-thm:hover {
-    color: #b331ff !important
+    color: #ffae00 !important
 }
 
 .text-thm1 {
-    color: #443297 !important
+    color: #163020 !important
 }
 
 .text-thm1-light {
-    color: #6668b2
+    color: #ffae00
 }
 
 .text-thm2 {
@@ -519,11 +519,11 @@ address {
 }
 
 .bgc-thm {
-    background-color: #b331ff !important
+    background-color: #ffae00 !important
 }
 
 .bgc-thm1 {
-    background-color: #443297 !important
+    background-color: #163020 !important
 }
 
 .bgc-white {
@@ -718,8 +718,8 @@ address {
 }
 
 .btn-thm {
-    background-color: #b331ff;
-    border: 1px solid #b331ff;
+    background-color: #ffae00;
+    border: 1px solid #ffae00;
     color: #ffffff;
     position: relative;
     overflow: hidden;
@@ -728,8 +728,8 @@ address {
 
 
 .btn-thm:hover {
-    background-color: #481366;
-    border: 1px solid #b331ff;
+    background-color: #ffd900;
+    border: 1px solid #ffae00;
     color: #ffffff;
     position: relative;
     overflow: hidden;
@@ -788,7 +788,7 @@ address {
 }
 
 .btn-thm2-light:before {
-    background-color: #443297
+    background-color: #163020
 }
 
 .btn-blue:before {
@@ -826,13 +826,13 @@ address {
 }
 
 .btn-transparent:before {
-    background-color: #6668b2
+    background-color: #ffae00
 }
 
 .btn-transparent {
     background-color: transparent;
-    border: 2px solid #6668b2;
-    color: #6668b2
+    border: 2px solid #ffae00;
+    color: #ffae00
 }
 
 .btn-transparent-dark:before {
@@ -842,7 +842,7 @@ address {
 .btn-transparent:hover,
 .btn-transparent:active,
 .btn-transparent:focus {
-    border-color: #6668b2;
+    border-color: #ffae00;
     color: #fff
 }
 
@@ -885,14 +885,14 @@ address {
 }
 
 .btn-thm2 {
-    background-color: #443297;
-    border-color: #443297;
+    background-color: #163020;
+    border-color: #163020;
     color: #fff
 }
 
 .btn-thm2-light {
-    background-color: #6668b2;
-    border-color: #6668b2;
+    background-color: #ffae00;
+    border-color: #ffae00;
     color: #fff
 }
 
@@ -958,8 +958,8 @@ address {
 }
 
 .btn-dark {
-    background-color: #041e42;
-    border-color: #041e42;
+    background-color: #163020;
+    border-color: #163020;
     color: #fff
 }
 
@@ -974,31 +974,31 @@ address {
 .btn-yellow {
     background-color: #ffd96a;
     border-color: #ffd96a;
-    color: #041e42
+    color: #163020
 }
 
 .btn-yellow:hover,
 .btn-yellow:active,
 .btn-yellow:focus {
-    background-color: #b331ff;
-    border-color: #b331ff;
+    background-color: #ffae00;
+    border-color: #ffae00;
     color: #ffffff
 }
 
 .btn-white {
     background-color: #fff;
     border: 2px solid #fff;
-    color: #041e42
+    color: #163020
 }
 
 .btn-white.bdr_thm {
-    border-color: #b331ff
+    border-color: #ffae00
 }
 
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active {
-    border-color: #b331ff
+    border-color: #ffae00
 }
 
 .btn-gray {
@@ -2845,7 +2845,7 @@ address {
 }
 
 .log_fav_cart_widget.home4_style .icon .badge {
-    color: #041e42
+    color: #163020
 }
 
 .cart_btn.home_page_sidebar {
@@ -2854,7 +2854,7 @@ address {
 
 .log_fav_cart_widget .home_page_sidebar.price {
     bottom: 10px;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -2865,7 +2865,7 @@ address {
 }
 
 .log_fav_cart_widget .price {
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-weight: 500
 }
@@ -2919,13 +2919,13 @@ address {
 }
 
 .dropdown_content .list_content p {
-    color: #041e42;
+    color: #163020;
     margin-bottom: 0;
     line-height: normal
 }
 
 .dropdown_content .list_content .close_icon {
-    color: #041e42;
+    color: #163020;
     font-size: 10px;
     position: absolute;
     right: 0;
@@ -3010,7 +3010,7 @@ address {
 
 .radiobox_style2 [type="radio"]:checked label,
 .radiobox_style2 [type="radio"]:not(:checked) label {
-    color: #041e42;
+    color: #163020;
     cursor: pointer;
     display: flex;
     padding-left: 28px;
@@ -3020,7 +3020,7 @@ address {
 .radiobox_style2 [type="radio"]:checked label:before,
 .radiobox_style2 [type="radio"]:not(:checked) label:before {
     background: #fff;
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     border-radius: 100%;
     content: "";
     height: 18px;
@@ -3035,7 +3035,7 @@ address {
     background-color: #fff;
     content: "";
     border-radius: 100%;
-    border: 4px solid #041e42;
+    border: 4px solid #163020;
     height: 16px;
     left: 1px;
     position: absolute;
@@ -3097,16 +3097,16 @@ address {
 
 .header_top_iconbox.home2_style.at_home4 .icon,
 .header_top_iconbox.home2_style.at_home4 .icon span.badge {
-    border: 1px solid #041e42
+    border: 1px solid #163020
 }
 
 .header_top_iconbox.home2_style.at_home4 .icon span {
-    color: #041e42
+    color: #163020
 }
 
 .header_top_iconbox.home2_style.at_home4 .details .title,
 .header_top_iconbox.home2_style.at_home4 .details .subtitle {
-    color: #041e42
+    color: #163020
 }
 
 .header_top_iconbox:hover .icon {
@@ -3119,7 +3119,7 @@ address {
 }
 
 .header_top_iconbox .icon span.badge {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 50%;
     color: #ffffff;
     font-size: 8px;
@@ -3194,7 +3194,7 @@ address {
 .header_top_iconbox.home8_style .icon span.badge,
 .header_top_iconbox.home9_style .icon span.badge,
 .header_top_iconbox.home10_style .icon span.badge {
-    color: #041e42;
+    color: #163020;
     right: -7px;
     top: 10px
 }
@@ -3210,7 +3210,7 @@ address {
 .header_top_iconbox.home9_style .details .subtitle,
 .header_top_iconbox.home9_style .details .title,
 .header_top_iconbox.home9_style .icon span {
-    color: #041e42
+    color: #163020
 }
 
 .header_top_iconbox.home7_style .icon {
@@ -3265,7 +3265,7 @@ address {
 }
 
 .ht_contact_widget.home5 ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -3291,7 +3291,7 @@ address {
 }
 
 .header_middle {
-    background-color: #443297;
+    background-color: #163020;
     display: inline-block;
     position: relative;
     width: 100%
@@ -3321,7 +3321,7 @@ address {
 }
 
 .header_iconbox_home3_style .icon .badge {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 700;
     font-size: 8px;
@@ -3346,7 +3346,7 @@ address {
 
 .header_middle.home4_style,
 .menu_style_home_one.home4_style {
-    background-color: #b331ff
+    background-color: #ffae00
 }
 
 .header_middle .header_top_logo_home1 .logo,
@@ -3365,7 +3365,7 @@ address {
 
 .header_middle .header_top_logo_home3 .logo,
 .header_middle .header_top_logo_home4 .logo {
-    color: #041e42
+    color: #163020
 }
 
 .header_middle .header_top_logo_home6 .logo {
@@ -3494,7 +3494,7 @@ address {
 }
 
 .advscrh_frm_btn .search-btn {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 0 4px 4px 0;
     color: #ffffff;
     height: 50px;
@@ -3513,7 +3513,7 @@ address {
 }
 
 .search_widgets .title {
-    color: #041e42;
+    color: #163020;
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
@@ -3536,7 +3536,7 @@ address {
 }
 
 .search_widgets .help_search_btn .search-btn {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 0 4px 4px 0;
     color: #ffffff;
     font-size: 16px;
@@ -3564,7 +3564,7 @@ address {
 }
 
 .social_and_help_widgets ul li a {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -3573,13 +3573,13 @@ address {
 }
 
 .social_and_help_widgets .helpful_link_lsit .btn {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0;
-    color: #041e42
+    color: #163020
 }
 
 .social_and_help_widgets.home10_style .helpful_link_lsit.home10_style .btn {
@@ -3593,13 +3593,13 @@ address {
 }
 
 .delivery_widget li a span {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     vertical-align: middle
 }
 
 .delivery_widget li a {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -3649,7 +3649,7 @@ address {
 }
 
 .iconbox.home9_style .icon:before {
-    background-color: #443297;
+    background-color: #163020;
     border-radius: 6px;
     content: "";
     height: 100%;
@@ -3673,7 +3673,7 @@ address {
 }
 
 .iconbox.home9_style .icon span {
-    color: #443297;
+    color: #163020;
     font-size: 50px;
     line-height: 170px;
     z-index: 9
@@ -3717,7 +3717,7 @@ address {
 }
 
 .iconbox:hover .details .title {
-    color: #443297
+    color: #163020
 }
 
 .iconbox.home2_style .icon {
@@ -3786,7 +3786,7 @@ address {
 }
 
 .header_top.home9.style2 {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .header_top.home9.innerpage_style {
@@ -3801,7 +3801,7 @@ address {
 
 .header_top.home10_style,
 .header_middle.home10_style {
-    background-color: #6668b2
+    background-color: #ffae00
 }
 
 .header_top.home10_style {
@@ -3864,7 +3864,7 @@ header.header-nav a.navbar_brand {
 }
 
 .menu_style_home_one {
-    background-color: #443297
+    background-color: #163020
 }
 
 .menu_style_home_one.home2_style {
@@ -3986,7 +3986,7 @@ header.header-nav.menu_style_home_one a.navbar_brand span {
 }
 
 header.header-nav.menu_style_home_one a.navbar_brand.home5_style span {
-    color: #041E42;
+    color: #163020;
     padding-left: 0
 }
 
@@ -3997,14 +3997,14 @@ header.header-nav.menu_style_home_one.home2_style a.navbar_brand span {
 
 header.header-nav.menu_style_home_one.home10_style a.navbar_brand span,
 header.header-nav.menu_style_home_one.home10_style .ace-responsive-menu li a {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu>li>a.active span,
 header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu li a.active span,
 header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu li a,
 header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand span {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.menu_style_home_one.home2.stricky-fixed .ace-responsive-menu>li>a,
@@ -4030,7 +4030,7 @@ header.header-nav.menu_style_home_one.menu_home5_style.athome10 {
 
 header.header-nav.menu_style_home_one.home4_style .ace-responsive-menu li a,
 header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu li a {
-    color: #041E42;
+    color: #163020;
     font-weight: 500
 }
 
@@ -4040,7 +4040,7 @@ header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu li a
 
 header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu li a .badge {
     border-radius: 50%;
-    color: #041E42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 8px;
@@ -4052,7 +4052,7 @@ header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu li a
 }
 
 header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu li:hover a {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu.menu_home5_right_icons li a:before {
@@ -4060,11 +4060,11 @@ header.header-nav.menu_style_home_one.menu_home5_style .ace-responsive-menu.menu
 }
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li:hover a {
-    color: #b331ff
+    color: #ffae00
 }
 
 header.header-nav.menu_style_home_one.home4_style .ace-responsive-menu li:hover a {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu {
@@ -4158,7 +4158,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu.dropdo
 }
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu.dropdown-megamenu ul.sub-menu li:hover a {
-    color: #b331ff
+    color: #ffae00
 }
 
 header.header-nav.menu_style_home_one.home3 .ace-responsive-menu li ul.sub-menu {
@@ -4227,7 +4227,7 @@ header.header-nav.menu_style_home_one.home6_style .ace-responsive-menu li ul.sub
 
 header.header-nav.menu_style_home_one.home6_style .ace-responsive-menu.custom_menu_space_home2 li a,
 header.header-nav.menu_style_home_one.home6_style a.navbar_brand span {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.menu_style_home_one.home7_style {
@@ -4321,7 +4321,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li a l
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li:hover a,
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li:hover li a ul.sub-menu a {
-    color: #041E42
+    color: #163020
 }
 
 header.header-nav.home2.style_one .ace-responsive-menu li ul.sub-menu li,
@@ -4334,7 +4334,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li ul.
 }
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li a {
-    color: #041E42;
+    color: #163020;
     -webkit-transition: all .3s ease 0;
     -moz-transition: all .3s ease 0;
     -o-transition: all .3s ease 0;
@@ -4347,7 +4347,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li:las
 
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li a:hover,
 header.header-nav.menu_style_home_one .ace-responsive-menu li ul.sub-menu li ul.sub-menu {
-    color: #b331ff
+    color: #ffae00
 }
 
 header.header-nav.menu_style_home_one.home3 .ace-responsive-menu li ul.sub-menu li a:hover {
@@ -4361,7 +4361,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li>a {
 header.header-nav.menu_style_home_one .ace-responsive-menu>li>a:before,
 header.header-nav.menu_style_home_one.home2 .ace-responsive-menu>li>a:before,
 header.header-nav.menu_style_home_one.home3 .ace-responsive-menu>li>a:before {
-    background-color: #b331ff;
+    background-color: #ffae00;
     content: "";
     height: 2px;
     opacity: 0;
@@ -4384,7 +4384,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li>a:before,
 header.header-nav.menu_style_home_one.home5_style .ace-responsive-menu>li>a:before,
 header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu>li>a:before,
 header.header-nav.menu_style_home_one.style2 .ace-responsive-menu>li>a:before {
-    background-color: #b331ff
+    background-color: #ffae00
 }
 
 header.header-nav.menu_style_home_one.home5_style .ace-responsive-menu>li>a:before {
@@ -4424,7 +4424,7 @@ header.header-nav.menu_style_home_one.style2 a.navbar_brand {
 }
 
 header.header-nav.menu_style_home_one.style2 a.navbar_brand span {
-    color: #041E42;
+    color: #163020;
     font-size: 30px;
     font-weight: 700;
     line-height: 43.35px;
@@ -4432,7 +4432,7 @@ header.header-nav.menu_style_home_one.style2 a.navbar_brand span {
 }
 
 header.header-nav.menu_style_home_one.style2 .ace-responsive-menu li a {
-    color: #041E42;
+    color: #163020;
     font-size: 13px;
     font-weight: 600;
     line-height: 17px
@@ -4506,7 +4506,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .stylehome1 .mm-navbar {
-    color: #041e42;
+    color: #163020;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -4533,7 +4533,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 
 .stylehome1 a.mm-listitem__text,
 .stylehome1 a.mm-btn.mm-btn_next.mm-listitem__btn.mm-listitem__text {
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase
@@ -4542,8 +4542,8 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 .stylehome1 a.mm-listitem__text:hover,
 .stylehome1 a.mm-btn.mm-btn_next.mm-listitem__btn.mm-listitem__text:hover {
     background-color: #f3f5f6;
-    border-left: 2px solid #443297;
-    color: #041e42
+    border-left: 2px solid #163020;
+    color: #163020
 }
 
 .stylehome1.home3 a.mm-listitem__text,
@@ -4554,7 +4554,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 .stylehome1.home3 a.mm-listitem__text:hover,
 .stylehome1.home3 a.mm-btn.mm-btn_next.mm-listitem__btn.mm-listitem__text:hover {
     background-color: #e5e5e5;
-    color: #041e42
+    color: #163020
 }
 
 .stylehome1.home6 .mm-navbar {
@@ -4604,7 +4604,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .custom_dropdown_widget .title {
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -4622,7 +4622,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 
 .custom_dropdown_widget .bootstrap-select li a.dropdown-item:hover {
     background-color: transparent;
-    color: #041e42;
+    color: #163020;
     font-weight: 600
 }
 
@@ -4646,7 +4646,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
     background-color: #fff;
     border: 1px solid #ebebeb;
     border-radius: 3px;
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     height: 50px;
     line-height: 2.5;
@@ -4667,7 +4667,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
     background-color: #f3f5f6;
     border-radius: 60px;
     cursor: pointer;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -4747,7 +4747,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 
 .filter_components li.list a:after,
 .filter_components li.gird a:after {
-    background-color: #041e42;
+    background-color: #163020;
     bottom: 0;
     content: "";
     height: 1px;
@@ -4768,7 +4768,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 
 .filter_components .list a,
 .filter_components .gird a {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -4793,7 +4793,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .left_sidebar_department_widgets ul li .parent_list {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -4822,7 +4822,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .left_sidebar_department_widgets ul li .child_list {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
@@ -4832,7 +4832,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .left_sidebar_department_widgets ul li .child_list:hover {
-    color: #443297
+    color: #163020
 }
 
 .shop_by_brand {
@@ -4844,7 +4844,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 .shop_by_brand.style2 a {
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     display: block;
     font-family: Jost;
     font-size: 14px;
@@ -4877,7 +4877,7 @@ header.header-nav.menu_style_home_one .ace-responsive-menu>li:nth-child(2) ul.su
 }
 
 .shop_by_brand ul li a:hover {
-    background-color: #443297;
+    background-color: #163020;
     color: #fff
 }
 
@@ -5033,7 +5033,7 @@ form.listing_page_v9 {
 .main-banner-wrapper .carousel-btn-block .carousel-btn {
     background-color: #fff;
     border-radius: 50%;
-    color: #041e42;
+    color: #163020;
     cursor: pointer;
     display: inline-block;
     font-size: 13px;
@@ -5095,7 +5095,7 @@ form.listing_page_v9 {
 
 .home9_slider_style .banner-style-one .banner-title,
 .home9_slider_style .banner-style-one .active .banner-title {
-    color: #041e42;
+    color: #163020;
     font-size: 60px;
     font-style: normal;
     font-weight: 1;
@@ -5105,7 +5105,7 @@ form.listing_page_v9 {
 
 .home9_slider_style .banner-style-one p,
 .home9_slider_style .banner-style-one .active p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
@@ -5127,7 +5127,7 @@ form.listing_page_v9 {
 }
 
 .home6_style .banner-style-one .banner-title {
-    color: #041e42;
+    color: #163020;
     font-size: 45px;
     font-style: normal;
     font-weight: 1;
@@ -5282,7 +5282,7 @@ form.listing_page_v9 {
 .home1_style .banner-style-one .tag {
     background-color: #86f1df;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -5298,13 +5298,13 @@ form.listing_page_v9 {
 }
 
 .home1_style .banner-style-one .tag.home6_style {
-    background-color: #b331ff;
+    background-color: #ffae00;
     color: #ffffff
 }
 
 .home1_style .banner-style-one .tag.home7_style,
 .home1_style .banner-style-one .tag.home8_style {
-    background-color: #041e42;
+    background-color: #163020;
     color: #fff
 }
 
@@ -5326,7 +5326,7 @@ form.listing_page_v9 {
 
 .home1_style .banner-style-one .banner-title,
 .home2_banner_style .apple_widget_home1 .title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -5336,7 +5336,7 @@ form.listing_page_v9 {
 }
 
 .home1_style .banner-style-one p {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -5351,7 +5351,7 @@ form.listing_page_v9 {
 .home1_style .banner-style-one .active .banner-btn.home6_style,
 .home1_style .banner-style-one .banner-btn.home8_banner_btn,
 .home1_style .banner-style-one .active .banner-btn.home8_banner_btn {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -5385,7 +5385,7 @@ form.listing_page_v9 {
 .shoplist_style_v1 .banner-style-one .active .banner-title,
 .shoplist_style_v7 .banner-style-one .banner-title,
 .shoplist_style_v7 .banner-style-one .active .banner-title {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 28px;
     font-weight: 500;
@@ -5399,7 +5399,7 @@ form.listing_page_v9 {
 .shoplist_style_v6 .banner-style-one.active .banner-btn,
 .shoplist_style_v7 .banner-style-one .banner-btn,
 .shoplist_style_v7 .banner-style-one.active .banner-btn {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -5412,7 +5412,7 @@ form.listing_page_v9 {
 .shoplist_style_v1 .banner-style-one .active p,
 .shoplist_style_v7 .banner-style-one p,
 .shoplist_style_v7 .banner-style-one .active p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -5483,7 +5483,7 @@ form.listing_page_v9 {
     background-color: #ffd96a;
     border: none;
     border-radius: 50px;
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -5497,7 +5497,7 @@ form.listing_page_v9 {
 .home8_main_slider .banner-style-one .banner-btn:hover,
 .home8_main_slider .banner-style-one .banner-btn:active,
 .home8_main_slider .banner-style-one .banner-btn:focus {
-    background-color: #b331ff
+    background-color: #ffae00
 }
 
 .home9_slider_style .banner-style-one .banner-btn:hover,
@@ -5512,7 +5512,7 @@ form.listing_page_v9 {
 .home9_slider_style .banner-style-one .banner-btn,
 .home9_slider_style .banner-style-one .active .banner-btn {
     border: none;
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -5754,7 +5754,7 @@ form.listing_page_v9 {
 
 .for_blog.list-type .details p,
 .for_blog.blog_details_inner .details p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -5823,7 +5823,7 @@ form.listing_page_v9 {
 }
 
 .faq_according .accordion .card.floor_plan .card-header.active .btn-link {
-    color: #041e42
+    color: #163020
 }
 
 .faq_according .accordion .card.floor_plan .card-header.active {
@@ -5883,7 +5883,7 @@ form.listing_page_v9 {
 
 .funfact_one .details .timer,
 .funfact_one .details ul li span {
-    color: #041e42;
+    color: #163020;
     font-size: 50px;
     font-weight: 500;
     line-height: 72px;
@@ -5891,7 +5891,7 @@ form.listing_page_v9 {
 }
 
 .funfact_one p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -5918,7 +5918,7 @@ form.listing_page_v9 {
 }
 
 .social_icon_list li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     line-height: 26px;
@@ -5938,7 +5938,7 @@ form.listing_page_v9 {
 }
 
 .footer_mobile_app_widget .mobile_app_list li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -5962,7 +5962,7 @@ form.listing_page_v9 {
     background-color: #fff;
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     height: 60px;
     padding-left: 20px
 }
@@ -5972,7 +5972,7 @@ form.listing_page_v9 {
 }
 
 .footer_mailchimp_form.home7_lg_banner.col-autoinput.form-control::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .footer_mailchimp_form.home7_lg_banner .subscription_btn {
@@ -5998,7 +5998,7 @@ form.listing_page_v9 {
 }
 
 .footer_mailchimp_form.home5 button {
-    background-color: #041e42;
+    background-color: #163020;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -6022,7 +6022,7 @@ form.listing_page_v9 {
 }
 
 .footer_mailchimp_form.home5.at_home6.home9_style button {
-    background-color: #b331ff;
+    background-color: #ffae00;
     color: #ffffff
 }
 
@@ -6049,7 +6049,7 @@ form.listing_page_v9 {
 
 .footer_mailchimp_form.home5 .col-auto input:placeholder,
 .footer_mailchimp_form .col-auto input.form-control:placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .footer_mailchimp_form .col-auto {
@@ -6074,7 +6074,7 @@ form.listing_page_v9 {
 .footer_mailchimp_form.home6 .col-auto input.form-control {
     background-color: #fff;
     border: 1px solid #fff;
-    color: #041e42
+    color: #163020
 }
 
 .footer_mailchimp_form.home8 .col-auto {
@@ -6096,7 +6096,7 @@ form.listing_page_v9 {
 
 .footer_mailchimp_form button {
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -6119,7 +6119,7 @@ form.listing_page_v9 {
 
 .footer_mailchimp_form.home10 button {
     background-color: transparent;
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -6166,13 +6166,13 @@ form.listing_page_v9 {
 }
 
 .footer_bottom_area {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .copyright-widget p,
 .copyright-widget p a,
 .copyright-widget.home10 p {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -6208,7 +6208,7 @@ form.listing_page_v9 {
 }
 
 .footer_one.home10 {
-    background-color: #6668b2
+    background-color: #ffae00
 }
 
 .footer_contact_widget,
@@ -6232,7 +6232,7 @@ form.listing_page_v9 {
 
 .contact_icon_box .contact_iconbox .icon span,
 .footer_contact_iconbox .icon span {
-    color: #041e42;
+    color: #163020;
     font-size: 30px
 }
 
@@ -6246,7 +6246,7 @@ form.listing_page_v9 {
 }
 
 .footer_contact_iconbox .details .title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -6261,7 +6261,7 @@ form.listing_page_v9 {
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #041e42
+    color: #163020
 }
 
 .footer_contact_widget.home2 ul li a,
@@ -6270,7 +6270,7 @@ form.listing_page_v9 {
 }
 
 .footer_contact_widget.home6 ul li a {
-    color: #041e42
+    color: #163020
 }
 
 .footer_qlink_widget {
@@ -6288,7 +6288,7 @@ form.listing_page_v9 {
 .footer_mobile_app_widget h4,
 .footer_acceped_card_widget h4,
 .footer_qlink_widget.home10 h4 {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0;
@@ -6322,7 +6322,7 @@ form.listing_page_v9 {
 .footer_qlink_widget.home5 h4,
 .footer_contact_widget.home5 h4,
 .footer_contact_widget.home6 h4 {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -6331,7 +6331,7 @@ form.listing_page_v9 {
 }
 
 .footer_qlink_widget.home4 h4 {
-    color: #041e42
+    color: #163020
 }
 
 .footer_qlink_widget.home4 li a {
@@ -6341,7 +6341,7 @@ form.listing_page_v9 {
 .footer_qlink_widget li a,
 .footer_qlink_widget.home2 li a,
 .footer_qlink_widget.home10 li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6364,12 +6364,12 @@ form.listing_page_v9 {
 }
 
 .footer_qlink_widget li:hover a {
-    color: #443297
+    color: #163020
 }
 
 .account_user_deails .dboard_address .title span:before,
 .footer_qlink_widget li a:before {
-    background-color: #443297;
+    background-color: #163020;
     bottom: 0;
     content: "";
     height: 1px;
@@ -6424,7 +6424,7 @@ form.listing_page_v9 {
 
 .sidebar_contact_widget .title,
 .sidebar_about_widget .title {
-    color: #041e42
+    color: #163020
 }
 
 .sidebar_contact_widget li {
@@ -6471,7 +6471,7 @@ form.listing_page_v9 {
 }
 
 .inner_page_breadcrumb .breadcrumb_title {
-    color: #041e42
+    color: #163020
 }
 
 .inner_page_breadcrumb.style3 .breadcrumb_content {
@@ -6494,7 +6494,7 @@ form.listing_page_v9 {
 }
 
 .inner_page_breadcrumb .breadcrumb-item a {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -6511,7 +6511,7 @@ form.listing_page_v9 {
 }
 
 .breadcrumb_content.style2 h2 {
-    color: #041e42
+    color: #163020
 }
 
 .breadcrumb_content.style3 {
@@ -6551,7 +6551,7 @@ form.listing_page_v9 {
 }
 
 .breadcrumb-item.active.style2 {
-    color: #041e42
+    color: #163020
 }
 
 .inner_page_breadcrumb .breadcrumb_content.style2 .breadcrumb-item a,
@@ -6560,7 +6560,7 @@ form.listing_page_v9 {
 .inner_page_breadcrumb .breadcrumb_content.style3 .breadcrumb-item a,
 .inner_page_breadcrumb .breadcrumb_content.style3 .breadcrumb-item.active,
 .inner_page_breadcrumb .breadcrumb_content.style3 .breadcrumb-item .breadcrumb-item::before {
-    color: #041e42
+    color: #163020
 }
 
 .breadcrumb_content.style2 ol.breadcrumb {
@@ -6598,7 +6598,7 @@ form.listing_page_v9 {
 }
 
 .about_us_content p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -6618,7 +6618,7 @@ form.listing_page_v9 {
 }
 
 .aboutus_mission_vision p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -6649,7 +6649,7 @@ form.listing_page_v9 {
 }
 
 .zmart_testimonial1 .review ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px
 }
 
@@ -6659,7 +6659,7 @@ form.listing_page_v9 {
 }
 
 .zmart_testimonial1 .testimonial_contents .main_title {
-    color: #041e42;
+    color: #163020;
     font-size: 26px;
     font-weight: 500;
     line-height: 50px;
@@ -6668,7 +6668,7 @@ form.listing_page_v9 {
 }
 
 .zmart_testimonial1 .testimonial_contents .author {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -6677,7 +6677,7 @@ form.listing_page_v9 {
 }
 
 .zmart_testimonial1 .testimonial_contents .author_post {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -6718,7 +6718,7 @@ form.listing_page_v9 {
 
 .zmart_testimonial_slider .swiper-pagination-fraction {
     bottom: 0;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 18px;
     font-weight: 500;
@@ -6730,7 +6730,7 @@ form.listing_page_v9 {
 .zmart_testimonial_slider .slideactive,
 .zmart_testimonial_slider .slidecount_divider,
 .zmart_testimonial_slider .slidetotal {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -6806,7 +6806,7 @@ form.listing_page_v9 {
 }
 
 .blog_post.one .thumb .post_date span {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 700;
     display: table-caption;
@@ -6946,7 +6946,7 @@ form.listing_page_v9 {
 }
 
 .vendor_grid.shop_single_style .price {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -6977,7 +6977,7 @@ form.listing_page_v9 {
 }
 
 .shop_single_item .custom_checkbox {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -6999,12 +6999,12 @@ form.listing_page_v9 {
 }
 
 .shop_single_item .plusicon span {
-    color: #041e42;
+    color: #163020;
     font-size: 10px
 }
 
 .shop_single_item .price_ss2_single {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 26px;
     font-weight: 500;
@@ -7021,7 +7021,7 @@ form.listing_page_v9 {
 }
 
 .shop_single_qna .search_field button.btn {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border: 1px solid #eaeaea;
     border-radius: 0 6px 6px 0;
     height: 50px;
@@ -7052,7 +7052,7 @@ form.listing_page_v9 {
 }
 
 .shipping_return_para {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -7060,7 +7060,7 @@ form.listing_page_v9 {
 }
 
 .vendor_address ul li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -7185,7 +7185,7 @@ form.listing_page_v9 {
 }
 
 .team_member .thumb .overylay .social_icon li a i {
-    color: #041e42;
+    color: #163020;
     font-size: 14px
 }
 
@@ -7347,7 +7347,7 @@ form.listing_page_v9 {
 .shop_item_6grid_slider.owl-theme .owl-nav .owl-prev,
 .shop_item_6grid_slider.owl-theme .owl-nav .owl-next {
     background-color: transparent;
-    color: #041E42;
+    color: #163020;
     position: absolute
 }
 
@@ -7360,7 +7360,7 @@ form.listing_page_v9 {
 }
 
 .error_page_content .erro_code {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -7369,7 +7369,7 @@ form.listing_page_v9 {
 }
 
 .error_page_content .error_title {
-    color: #041e42;
+    color: #163020;
     font-size: 50px;
     font-weight: 500;
     line-height: 72px;
@@ -7378,7 +7378,7 @@ form.listing_page_v9 {
 }
 
 .error_page_content p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -7413,7 +7413,7 @@ form.listing_page_v9 {
 }
 
 .help_support_box ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
@@ -7425,7 +7425,7 @@ form.listing_page_v9 {
 }
 
 .help_support_box ul li:hover a {
-    color: #443297;
+    color: #163020;
     text-decoration: underline
 }
 
@@ -7443,7 +7443,7 @@ form.listing_page_v9 {
 }
 
 .brand_item_box ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -7452,7 +7452,7 @@ form.listing_page_v9 {
 }
 
 .brand_item_box ul li a:before {
-    background-color: #443297;
+    background-color: #163020;
     bottom: 0;
     content: "";
     height: 1px;
@@ -7470,7 +7470,7 @@ form.listing_page_v9 {
 }
 
 .brand_item_box ul li:hover a {
-    color: #443297
+    color: #163020
 }
 
 .compare_table .table-borderless tbody tbody,
@@ -7508,7 +7508,7 @@ form.listing_page_v9 {
 
 .compare_table .table-borderless thead th.first_th span.first_title {
     position: absolute;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -7528,7 +7528,7 @@ th.cp_color_title,
 th.cp_brand_title,
 th.cp_btns_title {
     background-color: #f3f5f6;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -7558,7 +7558,7 @@ td.cp_btns {
 
 .compare_table .table-borderless td {
     border-right: 1px solid #eaeaea;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -7631,7 +7631,7 @@ td.cp_btns {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #041e42;
+    background-color: #163020;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     -o-transition: all .4s;
@@ -7785,7 +7785,7 @@ td.cp_btns {
 
 .login_form p,
 .sign_up_form p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
@@ -7796,7 +7796,7 @@ td.cp_btns {
 
 .login_form p a,
 .sign_up_form p a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -7805,7 +7805,7 @@ td.cp_btns {
 }
 
 .login_form .btn-fpswd {
-    color: #443297;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -7872,8 +7872,8 @@ td.cp_btns {
 
 .login_form .form-control:focus,
 .sign_up_form .form-control:focus {
-    color: #041e42;
-    border: 1px solid #041e42;
+    color: #163020;
+    border: 1px solid #163020;
     outline: none
 }
 
@@ -7885,7 +7885,7 @@ td.cp_btns {
 .login_form .form-control:focus::-webkit-input-placeholder,
 .sign_up_form .form-control:focus::-webkit-input-placeholder,
 .sign_up_form button.btn.dropdown-toggle:focus::-webkit-input-placeholder {
-    color: #041e42;
+    color: #163020;
     outline: none
 }
 
@@ -7913,7 +7913,7 @@ td.cp_btns {
 
 .login_form .form-label,
 .sign_up_form .form-label {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -7937,7 +7937,7 @@ td.cp_btns {
 
 .login_form .custom-control.custom-checkbox [type="checkbox"],
 [type="radio"] {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     border-radius: 4px;
     height: 16px;
     outline: none;
@@ -7946,7 +7946,7 @@ td.cp_btns {
 }
 
 .login_form .custom-control.custom-checkbox label.custom-control-label {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -7965,7 +7965,7 @@ td.cp_btns {
 .login_form .hr_content .hr_top_text,
 .sign_up_form .hr_content .hr_top_text {
     background-color: #fff;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -8050,13 +8050,13 @@ td.cp_btns {
 
 .login_form .login_with_social li:nth-child(4) a,
 .sign_up_form .login_with_social li:nth-child(4) a {
-    border: 1px solid #041e42;
-    color: #041e42
+    border: 1px solid #163020;
+    color: #163020
 }
 
 .login_form .login_with_social li:nth-child(4):hover a,
 .sign_up_form .login_with_social li:nth-child(4):hover a {
-    background-color: #041e42;
+    background-color: #163020;
     color: #fff
 }
 
@@ -8075,7 +8075,7 @@ td.cp_btns {
 .sign_up_form .bootstrap-select .dropdown-menu li .dropdown-item.active,
 .sign_up_form .bootstrap-select .dropdown-menu li .dropdown-item:active {
     background-color: #fff;
-    color: #b331ff
+    color: #ffae00
 }
 
 .login_form .form-check-input {
@@ -8084,15 +8084,15 @@ td.cp_btns {
 }
 
 .login_form .form-check-label {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     padding-left: 0
 }
 
 .login_form .btn-log {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -8113,7 +8113,7 @@ td.cp_btns {
 
 .login_form.inner_page .form-label,
 .sign_up_form .form-label {
-    color: #041e42
+    color: #163020
 }
 
 .sign_up_form.inner_page .form-control {
@@ -8124,7 +8124,7 @@ td.cp_btns {
 
 .login_form.inner_page .form-control:focus::-webkit-input-placeholder,
 .sign_up_form .form-control:focus::-webkit-input-placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .sign_up_form .form-check-input {
@@ -8161,7 +8161,7 @@ td.cp_btns {
 }
 
 .tracking_page p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -8169,7 +8169,7 @@ td.cp_btns {
 }
 
 .tracking_page .btn-track {
-    border: 1px solid #b331ff;
+    border: 1px solid #ffae00;
     border-radius: 6px;
     height: 52px;
     width: 105px;
@@ -8195,7 +8195,7 @@ td.cp_btns {
 }
 
 .sign_up_form .form-check-label {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     padding-left: 7px
 }
@@ -8227,7 +8227,7 @@ td.cp_btns {
 
 .sign_up_form .btn-signup {
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -8312,7 +8312,7 @@ td.cp_btns {
 
 .sidebar_widget_checkbox label.custom_checkbox,
 .sidebar_widget_checkbox label.custom_checkbox:hover span {
-    color: #041e42
+    color: #163020
 }
 
 .shortcode_widget_accprdons .faq_according .accordion .card:last-child {
@@ -8338,7 +8338,7 @@ td.cp_btns {
 }
 
 .shortcode_widget_accprdons .faq_according .accordion .card .card-header .btn-link {
-    color: #041e42;
+    color: #163020;
     display: flex;
     font-size: 20px;
     font-weight: 500;
@@ -8349,7 +8349,7 @@ td.cp_btns {
 }
 
 .sidebar_accordion_widget .accordion .card .card-header .btn-link {
-    color: #041e42;
+    color: #163020;
     display: flex;
     font-family: Jost;
     font-size: 18px;
@@ -8377,7 +8377,7 @@ td.cp_btns {
 
 .shortcode_widget_accprdons .faq_according .accordion .card .card-header .btn-link span,
 .sidebar_accordion_widget .accordion .card .card-header .btn-link span {
-    color: #041e42;
+    color: #163020;
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
@@ -8387,7 +8387,7 @@ td.cp_btns {
 }
 
 .shortcode_widget_accprdons .faq_according .accordion .card .card-body {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -8417,7 +8417,7 @@ td.cp_btns {
 
 .faq_according .accordion .card .card-header::before {
     font-family: "FontAwesome";
-    color: #041e42;
+    color: #163020;
     content: "\2b";
     font-size: 30px;
     float: right;
@@ -8446,7 +8446,7 @@ td.cp_btns {
 
 .shop_single_accordion .faq_according .accordion .card .card-header::before {
     font-family: "FontAwesome";
-    color: #041e42;
+    color: #163020;
     content: "\f107";
     font-size: 30px;
     float: right;
@@ -8467,7 +8467,7 @@ td.cp_btns {
 }
 
 .shop_single_description .para {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -8475,7 +8475,7 @@ td.cp_btns {
 }
 
 .shop_single_description a {
-    color: #443297;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
@@ -8530,7 +8530,7 @@ td.cp_btns {
 }
 
 .sidebar_location_filter .location_zip input.form_control {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
@@ -8542,7 +8542,7 @@ td.cp_btns {
 .dashboard_page_add_listing .btn.btn-gray {
     background-color: #f3f5f6;
     border: 1px solid #f3f5f6;
-    color: #041e42;
+    color: #163020;
     height: 54px;
     line-height: 45px;
     width: 113px;
@@ -8561,7 +8561,7 @@ td.cp_btns {
 }
 
 .dashboard_page_add_listing .btn-new {
-    border: 1px solid #b331ff;
+    border: 1px solid #ffae00;
     height: 54px;
     line-height: 40px;
     -webkit-box-shadow: 0 5px 20px rgba(245, 195, 75, 0.15);
@@ -8579,7 +8579,7 @@ td.cp_btns {
 }
 
 .terms_condition_grid .grids p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
@@ -8596,7 +8596,7 @@ td.cp_btns {
 }
 
 .terms_condition_widget .title {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -8613,7 +8613,7 @@ td.cp_btns {
     border: none;
     border-right: 2px solid transparent;
     border-radius: 0;
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 45px;
@@ -8628,11 +8628,11 @@ td.cp_btns {
 
 .terms_condition_widget .nav:hover .nav-link,
 .terms_condition_widget ul li:hover a {
-    color: #443297
+    color: #163020
 }
 
 .terms_condition_widget .nav .nav-link.active {
-    border-right: 2px solid #443297
+    border-right: 2px solid #163020
 }
 
 .terms_condition_widget ul li a i {
@@ -8642,7 +8642,7 @@ td.cp_btns {
 
 .terms_condition_widget ul li:hover a,
 .terms_condition_widget ul li:hover::marker {
-    color: #443297
+    color: #163020
 }
 
 .ui_kit_tab .nav.nav-pills {
@@ -8653,7 +8653,7 @@ td.cp_btns {
     background-color: #f3f5f6;
     border-radius: 6px;
     border: 1px solid transparent;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -8675,7 +8675,7 @@ td.cp_btns {
 }
 
 .ui_kit_tab .nav.nav-pills .nav-link.active {
-    background-color: #443297;
+    background-color: #163020;
     color: #fff;
     border-radius: 6px
 }
@@ -8706,12 +8706,12 @@ td.cp_btns {
     background-color: transparent;
     border-color: transparent;
     border-style: solid;
-    border-bottom: 2px solid #041e42;
-    color: #041e42
+    border-bottom: 2px solid #163020;
+    color: #163020
 }
 
 .ui_kit_tab .tab-content .tab-pane {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -8744,7 +8744,7 @@ td.cp_btns {
 .ui_kit_table .table th {
     background-color: #f3f5f6;
     border-bottom: transparent;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -8848,7 +8848,7 @@ td.cp_btns {
 .ui_kit_input .form-control:hover,
 .ui_kit_input .form-control:active,
 .ui_kit_input .form-control:focus {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -8861,7 +8861,7 @@ td.cp_btns {
 }
 
 .ui_kit_input .form-control:focus::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .ui_kit_textarea h5 {
@@ -8875,7 +8875,7 @@ td.cp_btns {
 .ui_kit_textarea textarea.form-control {
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
@@ -8886,7 +8886,7 @@ td.cp_btns {
 }
 
 .ui_kit_textarea textarea.form-control:focus {
-    border: 1px solid #041e42
+    border: 1px solid #163020
 }
 
 .contact_form.profile textarea.form-control {
@@ -8896,7 +8896,7 @@ td.cp_btns {
 .ui_kit_tooltip .btn {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0;
@@ -8925,7 +8925,7 @@ td.cp_btns {
 }
 
 .ui_kit_radiobox .radio label {
-    color: #041e42;
+    color: #163020;
     cursor: pointer;
     font-size: 15px;
     font-weight: 400;
@@ -8943,14 +8943,14 @@ legend {
 
 .ui_kit_radiobox .radio input[type="radio"]:checked label .radio-label {
     background-color: #fff;
-    box-shadow: inset 0 0 0 5px #041e42
+    box-shadow: inset 0 0 0 5px #163020
 }
 
 .ui_kit_radiobox .radio input[type="radio"] label .radio-label {
     content: "";
     background-color: #fff;
     border-radius: 100%;
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -9111,7 +9111,7 @@ legend span {
 }
 
 .custom_checkbox .checkmark {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     border-radius: 4px;
     position: absolute;
     top: 10px;
@@ -9121,7 +9121,7 @@ legend span {
 }
 
 .sidebar_widget_checkbox.color_style .custom_checkbox .checkmark {
-    background-color: #041e42;
+    background-color: #163020;
     border: 1px solid transparent;
     border-radius: 50%;
     color: #fff;
@@ -9137,7 +9137,7 @@ legend span {
 }
 
 .sidebar_widget_checkbox.color_style .custom_checkbox .checkmark.style2 {
-    background-color: #443297
+    background-color: #163020
 }
 
 .sidebar_widget_checkbox.color_style .custom_checkbox .checkmark.style3 {
@@ -9145,7 +9145,7 @@ legend span {
 }
 
 .sidebar_widget_checkbox.color_style .custom_checkbox .checkmark.style4 {
-    background-color: #b331ff
+    background-color: #ffae00
 }
 
 .sidebar_widget_checkbox.color_style .custom_checkbox .checkmark.style5 {
@@ -9188,7 +9188,7 @@ legend span {
 }
 
 .custom_checkbox input:checked~.checkmark {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .custom_checkbox .checkmark:after {
@@ -9239,12 +9239,12 @@ legend span {
 }
 
 .ui_kit_whitchbox .form-check-input:checked {
-    background-color: #041e42;
+    background-color: #163020;
     box-shadow: none
 }
 
 .ui_kit_whitchbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .ui_kit_whitchbox .custom-switch .custom-control-label::before {
@@ -9295,7 +9295,7 @@ legend span {
 }
 
 .bootstrap-select .dropdown-menu li a {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-family: "Jost";
     font-weight: 400;
@@ -9308,7 +9308,7 @@ legend span {
 }
 
 .bootstrap-select .dropdown-menu li:hover a {
-    color: #443297
+    color: #163020
 }
 
 .bootstrap-select .dropdown-menu li a,
@@ -9335,7 +9335,7 @@ legend span {
 }
 
 .ui_kit_multi_select_box .bootstrap-select .dropdown-menu.show {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     padding-top: 5px
 }
 
@@ -9359,7 +9359,7 @@ legend span {
 .ui_kit_multi_select_box .bootstrap-select .dropdown-menu li:hover a,
 .ui_kit_multi_select_box .bootstrap-select .dropdown-menu li a:active,
 .ui_kit_multi_select_box .bootstrap-select .dropdown-menu li a:focus {
-    color: #443297
+    color: #163020
 }
 
 .ui_page_heading {
@@ -9381,7 +9381,7 @@ legend span {
 }
 
 .ui_page_heading p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -9391,7 +9391,7 @@ legend span {
 }
 
 .ui_page_heading .blockquote {
-    border-left: 5px solid #b331ff;
+    border-left: 5px solid #ffae00;
     margin-bottom: 50px;
     padding: 30px 0 35px 80px;
     position: relative;
@@ -9430,14 +9430,14 @@ legend span {
 }
 
 .order_list li a span {
-    background-color: #041e42;
-    color: #041e42;
+    background-color: #163020;
+    color: #163020;
     left: 0;
     position: absolute
 }
 
 .order_list li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -9445,7 +9445,7 @@ legend span {
 }
 
 .list-style-type-bullet li {
-    color: #041e42;
+    color: #163020;
     list-style-type: disc;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -9497,8 +9497,8 @@ legend span {
 .ui_kit_select_search .dropdown.bootstrap-select:focus,
 .ui_kit_select_search .dropdown.bootstrap-select:visited,
 .ui_kit_select_search .dropdown-menu.show {
-    border: 1px solid #041e42;
-    color: #041e42;
+    border: 1px solid #163020;
+    color: #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -9511,8 +9511,8 @@ legend span {
 }
 
 .ui_kit_select_search button.btn.dropdown-toggle.bs-placeholder.btn-light.show {
-    border: 1px solid #041e42;
-    color: #041e42;
+    border: 1px solid #163020;
+    color: #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -9527,7 +9527,7 @@ legend span {
 
 .ui_kit_select_search .bootstrap-select .dropdown-menu li a span.text {
     font-size: 14px;
-    color: #041e42;
+    color: #163020;
     line-height: 2.5
 }
 
@@ -9554,8 +9554,8 @@ legend span {
 .ui_kit_multi_select_box .bootstrap-select .btn.dropdown-toggle:active,
 .ui_kit_multi_select_box .bootstrap-select .btn.dropdown-toggle:focus,
 .ui_kit_multi_select_box .bootstrap-select .btn.dropdown-toggle:focus-visible {
-    border: 1px solid #041e42;
-    color: #041e42;
+    border: 1px solid #163020;
+    color: #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -9579,7 +9579,7 @@ legend span {
 .ui_kit_select_search .bootstrap-select .dropdown-menu li:hover {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #443297
+    color: #163020
 }
 
 .ui_kit_select_search button.btn {
@@ -9616,7 +9616,7 @@ legend span {
 .ui_kit_select_search .bs-searchbox .form-control {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     line-height: 22px;
     height: 50px
@@ -9651,7 +9651,7 @@ legend span {
 }
 
 .ui_kit_select_search .dropdown-item {
-    color: #041e42
+    color: #163020
 }
 
 .ui_kit_select_search .dropdown-item:hover {
@@ -9717,7 +9717,7 @@ legend span {
 }
 
 .pagination_page_count {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 14px;
     font-weight: 400;
@@ -9727,9 +9727,9 @@ legend span {
 }
 
 .mbp_pagination ul.page_navigation li.active .page-link {
-    background-color: #b331ff;
-    border: 1px solid #b331ff;
-    color: #041e42
+    background-color: #ffae00;
+    border: 1px solid #ffae00;
+    color: #163020
 }
 
 .mbp_pagination .new_line_pagination {
@@ -9784,7 +9784,7 @@ legend span {
 }
 
 .mbp_thumb_post p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -9832,7 +9832,7 @@ legend span {
 }
 
 .bsp_comments p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -9849,7 +9849,7 @@ legend span {
 }
 
 .sale_product_item {
-    border: 2px solid #041e42;
+    border: 2px solid #163020;
     border-radius: 6px;
     padding: 20px;
     padding-bottom: 10px
@@ -9860,7 +9860,7 @@ legend span {
 }
 
 .sale_product_item.home10_style .event_counter_plugin_content ul li span {
-    color: #041e42
+    color: #163020
 }
 
 .sale_product_item .event_counter_plugin_content ul li span:first-child {
@@ -9868,7 +9868,7 @@ legend span {
 }
 
 .sale_product_item .event_counter_plugin_content ul li {
-    color: #041e42;
+    color: #163020;
     border: none;
     font-family: "Jost";
     font-style: normal;
@@ -9896,9 +9896,9 @@ legend span {
 }
 
 .event_counter_plugin_content ul li {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     display: inline-block;
     font-size: 15px;
     height: 80px;
@@ -9923,7 +9923,7 @@ legend span {
 }
 
 .event_counter_plugin_content ul li span {
-    color: #041e42;
+    color: #163020;
     display: block;
     font-size: 28px;
     font-weight: 500;
@@ -9932,7 +9932,7 @@ legend span {
 }
 
 .event_counter_plugin_content ul li span.schdule {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -9941,7 +9941,7 @@ legend span {
 }
 
 .event_counter_plugin_content ul li .time_text {
-    color: #041e42;
+    color: #163020;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -9998,7 +9998,7 @@ legend span {
 }
 
 .sidebar_feature_listing .title {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 18px;
     font-weight: 500;
@@ -10018,7 +10018,7 @@ legend span {
 }
 
 .sidebar_feature_listing .post_title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -10037,7 +10037,7 @@ legend span {
 
 .sidebar_feature_listing .flex-grow-1 ul li {
     font-size: 14px;
-    color: #041e42;
+    color: #163020;
     line-height: 1.2;
     margin-right: 0
 }
@@ -10083,7 +10083,7 @@ legend span {
     border: 1px solid #eaeaea;
     border-left: none;
     border-radius: 0 6px 6px 0;
-    color: #041e42;
+    color: #163020;
     height: 45px;
     z-index: 0
 }
@@ -10099,7 +10099,7 @@ legend span {
 
 .header_right_widgets ul li a {
     border-radius: 16px;
-    color: #041e42;
+    color: #163020;
     display: block;
     font-size: 20px;
     height: 50px;
@@ -10178,7 +10178,7 @@ span.active_status.active {
 
 .blog_tag_widget .tag_list li a:hover,
 .bsp_tags li a:hover {
-    background-color: #041e42;
+    background-color: #163020;
     color: #fff
 }
 
@@ -10188,7 +10188,7 @@ span.active_status.active {
 }
 
 .mbp_blockquote .blockquote {
-    border-left: 5px solid #b331ff;
+    border-left: 5px solid #ffae00;
     margin-bottom: 30px;
     padding: 30px 0 35px 70px;
     position: relative
@@ -10223,7 +10223,7 @@ span.active_status.active {
 
 .mbp_blockquote .blockquote em {
     font-size: 16px;
-    color: #041e42;
+    color: #163020;
     font-style: italic;
     font-weight: 500;
     line-height: 26px
@@ -10251,7 +10251,7 @@ span.active_status.active {
 }
 
 .custom_bsp_grid li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -10264,7 +10264,7 @@ span.active_status.active {
 }
 
 .blog_post_share li:first-child {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -10292,7 +10292,7 @@ span.active_status.active {
 
 .blog_post_share li a {
     border-radius: 50%;
-    color: #041e42;
+    color: #163020;
     display: block;
     font-size: 14px;
     height: 40px;
@@ -10316,7 +10316,7 @@ span.active_status.active {
 
 .mbp_pagination_tab .pag_prev .icon,
 .mbp_pagination_tab .pag_next .icon {
-    color: #041e42;
+    color: #163020;
     font-size: 14px
 }
 
@@ -10328,12 +10328,12 @@ span.active_status.active {
 
 .mbp_pagination_tab .pag_prev .detls .ptitle:hover,
 .mbp_pagination_tab .pag_next .detls .ptitle:hover {
-    color: #443297
+    color: #163020
 }
 
 .mbp_pagination_tab .pag_prev .detls p,
 .mbp_pagination_tab .pag_next .detls p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -10366,7 +10366,7 @@ span.active_status.active {
 }
 
 .mbp_pagination_comments .total_review h4 {
-    color: #041e42;
+    color: #163020;
     line-height: 26px;
     margin-bottom: 0
 }
@@ -10390,7 +10390,7 @@ span.active_status.active {
 }
 
 .mbp_pagination_comments .mbp_first .media-body .sub_title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-size: 16px;
     font-weight: 500;
@@ -10407,7 +10407,7 @@ span.active_status.active {
 .mbp_pagination_comments .mbp_first .media-body .sspd_postdate .sspd_review ul li a,
 .sspd_review ul li a,
 .shop_item .details .review ul li a {
-    color: #b331ff;
+    color: #ffae00;
     font-family: "FontAwesome";
     font-size: 10px;
     line-height: 11px;
@@ -10449,7 +10449,7 @@ span.active_status.active {
 }
 
 .single_line_review .progress-bar__bar {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 6px;
     height: 6px;
     position: absolute;
@@ -10474,7 +10474,7 @@ span.active_status.active {
 }
 
 .review_post_meta {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -10488,7 +10488,7 @@ span.active_status.active {
 }
 
 .review_content_para p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -10518,7 +10518,7 @@ span.active_status.active {
 }
 
 .review_cansel_btns a:hover {
-    color: #041e42;
+    color: #163020;
     border: 2px solid #eaeaea
 }
 
@@ -10547,7 +10547,7 @@ span.active_status.active {
 }
 
 .users_account_details .ed_menu_list ul li a {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 15px
@@ -10558,7 +10558,7 @@ span.active_status.active {
 }
 
 .users_account_details .ed_menu_list ul li a.active {
-    color: #041e42
+    color: #163020
 }
 
 .users_account_details .ed_menu_list ul li a span {
@@ -10586,7 +10586,7 @@ span.active_status.active {
 }
 
 .account_details_user .content_details .stitle {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -10607,7 +10607,7 @@ span.active_status.active {
 }
 
 .account_details_page .second_step_setup p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -10639,7 +10639,7 @@ span.active_status.active {
 }
 
 .ed_menu_list ul li a {
-    color: #041e42;
+    color: #163020;
     display: block;
     font-size: 14px;
     font-style: normal;
@@ -10722,7 +10722,7 @@ span.active_status.active {
 }
 
 .statistics_funfact .title {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 24px;
     font-weight: 500;
@@ -10755,7 +10755,7 @@ span.active_status.active {
 }
 
 .statistics_funfact .subtitle1 {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -10764,7 +10764,7 @@ span.active_status.active {
 }
 
 .statistics_funfact .subtitle2 {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -10773,7 +10773,7 @@ span.active_status.active {
 }
 
 .statistics_funfact .subtitle2 span {
-    color: #443297;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -10784,7 +10784,7 @@ span.active_status.active {
 .statistics_funfact .icon {
     background-color: #f3f5f6;
     border-radius: 16px;
-    color: #041e42;
+    color: #163020;
     font-size: 30px;
     height: 60px;
     line-height: 65px;
@@ -10831,7 +10831,7 @@ span.active_status.active {
 .report_widget ul li.report_export a {
     background-color: #f3f5f6;
     border-radius: 8px;
-    color: #041e42;
+    color: #163020;
     display: block;
     font-family: Jost;
     font-size: 14px;
@@ -10899,7 +10899,7 @@ span.active_status.active {
 
 .user_setting .dropdown-menu .user_set_header p {
     font-size: 16px;
-    color: #041e42;
+    color: #163020;
     line-height: 1.2
 }
 
@@ -10914,7 +10914,7 @@ span.active_status.active {
 }
 
 .user_setting .dropdown-menu .user_setting_content a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     line-height: 2.125 !important;
     padding-left: 0;
@@ -10934,7 +10934,7 @@ span.active_status.active {
 .user_setting .dropdown-menu .user_setting_content a:hover,
 .user_setting .dropdown-menu .user_setting_content a:hover span {
     background-color: transparent;
-    color: #443297;
+    color: #163020;
     font-weight: 500
 }
 
@@ -10991,7 +10991,7 @@ span.active_status.active {
 
 .inbox_user_list .wrap .meta h5.name {
     font-size: 14px;
-    color: #041e42;
+    color: #163020;
     font-weight: 500;
     line-height: 18px;
     margin-bottom: 5px
@@ -11128,7 +11128,7 @@ span.active_status.active {
 .message_container .user_heading .wrap h5.name {
     font-size: 14px;
     font-weight: 500;
-    color: #041e42;
+    color: #163020;
     line-height: 18px;
     margin-bottom: 0
 }
@@ -11160,7 +11160,7 @@ span.active_status.active {
 }
 
 .inbox_chatting_box .chatting_content li .title {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 500;
     line-height: 18px;
@@ -11175,7 +11175,7 @@ span.active_status.active {
 .inbox_chatting_box .chatting_content li p {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     padding: 15px 20px;
     max-width: 456px
@@ -11193,7 +11193,7 @@ span.active_status.active {
 .inbox_chatting_box .chatting_content li.reply p {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     max-width: 450px;
     padding: 15px 30px;
     text-align: right
@@ -11222,7 +11222,7 @@ span.active_status.active {
 .message_container .message_input form input::placeholder {
     font-size: 14px;
     font-weight: 400;
-    color: #041e42;
+    color: #163020;
     line-height: 18px
 }
 
@@ -11232,14 +11232,14 @@ span.active_status.active {
 }
 
 .message_container .message_input form input.form-control:focus::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .message_container .message_input form button.btn {
-    background-color: #b331ff;
-    border: 1px solid #b331ff;
+    background-color: #ffae00;
+    border: 1px solid #ffae00;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     flex: 1;
     height: 50px;
@@ -11274,7 +11274,7 @@ span.active_status.active {
 }
 
 .dashboard_header_logo .logo {
-    color: #041e42;
+    color: #163020;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
@@ -11354,7 +11354,7 @@ span.active_status.active {
 .dashboard_sidebar_list .sidebar_list_item a:active,
 .dashboard_sidebar_list .sidebar_list_item a:focus,
 .dashboard_sidebar_list .sidebar_list_item a.-is-active {
-    background-color: #b331ff;
+    background-color: #ffae00;
     color: white
 }
 
@@ -11377,7 +11377,7 @@ span.active_status.active {
 }
 
 .dashboard_title_area .para {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -11404,7 +11404,7 @@ span.active_status.active {
     width: 55px;
     flex-shrink: 0;
     position: relative;
-    color: #041e42
+    color: #163020
 }
 
 .dashboard-timeline-label:before {
@@ -11452,7 +11452,7 @@ span.active_status.active {
 }
 
 .dashboard-timeline-label .timeline-item .ra_pcontent .title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -11461,7 +11461,7 @@ span.active_status.active {
 }
 
 .dashboard-timeline-label .timeline-item .ra_pcontent .subtitle {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -11486,7 +11486,7 @@ input.amount4 {
     border: 1px solid #eaeaea;
     border-radius: 6px;
     box-shadow: none;
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 400;
     height: 45px;
@@ -11515,7 +11515,7 @@ input.amount::placeholder,
 input.amount2::placeholder,
 input.amount3::placeholder,
 input.amount4::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .slider-range.ui-slider.ui-corner-all.ui-slider-horizontal.ui-widget.ui-widget-content {
@@ -11526,7 +11526,7 @@ input.amount4::placeholder {
 }
 
 .ui-slider-range.ui-corner-all.ui-widget-header {
-    background-color: #041e42;
+    background-color: #163020;
     height: 2px
 }
 
@@ -11536,7 +11536,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus,
 span.ui-slider-handle.ui-corner-all.ui-state-default:hover,
 span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
     background-color: #fff;
-    border: 2px solid #041e42;
+    border: 2px solid #163020;
     border-radius: 50%;
     height: 14px;
     outline: none;
@@ -11550,7 +11550,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 #slider-range-value4 {
     background-color: #f3f5f6;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
@@ -11631,7 +11631,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 
 .noUi-horizontal .noUi-handle {
     background-color: #f3f5f6;
-    border: 2px solid #041e42;
+    border: 2px solid #163020;
     border-radius: 50%;
     height: 14px;
     left: -7px;
@@ -11650,7 +11650,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 }
 
 .noUi-connect {
-    background-color: #041e42;
+    background-color: #163020;
     border-radius: 30px;
     -webkit-transition: background 450ms;
     transition: background 450ms
@@ -11750,7 +11750,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 }
 
 .form_grid .contact_form label.form-label {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -11769,7 +11769,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 }
 
 .form_grid .contact_form textarea.form-control {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     line-height: 28px;
     padding: 20px 0 0 15px
@@ -11790,7 +11790,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible {
 
 .form_grid .contact_form button {
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -11839,7 +11839,7 @@ section {
 }
 
 .main-title p {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -11848,7 +11848,7 @@ section {
 }
 
 .main-title p a {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -11857,7 +11857,7 @@ section {
 }
 
 .title_more_btn {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -11867,7 +11867,7 @@ section {
 }
 
 .title_more_btn:before {
-    background-color: #041e42;
+    background-color: #163020;
     bottom: -8px;
     content: "";
     height: 2px;
@@ -11897,7 +11897,7 @@ section {
 }
 
 .scrollToHome {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 6px;
     bottom: -45px;
     color: #fff;
@@ -11958,7 +11958,7 @@ section {
 
 .form_control:active,
 .form_control:focus {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     box-shadow: none;
     outline: none
 }
@@ -11972,7 +11972,7 @@ section {
 .form_control:focus::placeholder,
 .contact_form.profile textarea.form-control:active::placeholder,
 .contact_form.profile textarea.form-control:focus::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 canvas {
@@ -12002,7 +12002,7 @@ canvas {
 }
 
 .order_complete_message .para {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -12041,7 +12041,7 @@ canvas {
 }
 
 .shop_order_box .order_list_raw ul li p {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-size: 16px;
     line-height: 28px;
@@ -12063,7 +12063,7 @@ canvas {
 
 .shop_order_box .order_details .od_content .product_name_qnt,
 .order_sidebar_widget .product_name_qnt {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -12076,7 +12076,7 @@ canvas {
 
 .shop_order_box .order_details .od_content .product_name_qnt span,
 .order_sidebar_widget .product_name_qnt span {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -12084,7 +12084,7 @@ canvas {
 }
 
 .shop_order_box .order_details .od_content .subtitle p {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -12092,7 +12092,7 @@ canvas {
 }
 
 .shop_order_box .order_details .od_content .subtitle span {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -12107,7 +12107,7 @@ canvas {
 }
 
 .shop_order_box .order_details .od_content .subtitle .fwn_bd_color {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -12170,12 +12170,12 @@ canvas {
 .checkout_form .checkout_coupon form textarea:active,
 .checkout_form .checkout_coupon form textarea:focus,
 .checkout_form .checkout_coupon form input.coupon_input:focus {
-    color: #041e42
+    color: #163020
 }
 
 .checkout_form .checkout_coupon form input.form_control:active::placeholder,
 .checkout_form .checkout_coupon form input.form_control:focus::placeholder {
-    color: #041e42
+    color: #163020
 }
 
 .checkout_form .checkout_coupon form.form_one {
@@ -12206,7 +12206,7 @@ canvas {
     background-color: transparent;
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
@@ -12237,7 +12237,7 @@ canvas {
 }
 
 .checkout_form .checkout_coupon .form2 label {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -12246,7 +12246,7 @@ canvas {
 }
 
 .checkout_form .checkout_coupon .form2 .ai_title {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -12257,7 +12257,7 @@ canvas {
 
 .checkout_form .checkout_coupon .form2 p {
     font-size: 16px;
-    color: #041e42;
+    color: #163020;
     font-weight: 700;
     line-height: 1.75
 }
@@ -12283,7 +12283,7 @@ canvas {
 }
 
 .checkout_form.style2 label.custom_checkbox {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -12305,7 +12305,7 @@ canvas {
 }
 
 .order_sidebar_widget .title {
-    color: #041e42;
+    color: #163020;
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
@@ -12315,7 +12315,7 @@ canvas {
 
 .order_sidebar_widget .subtitle p,
 .order_sidebar_widget .subtitle.style2 span {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -12325,7 +12325,7 @@ canvas {
 }
 
 .order_sidebar_widget .subtitle.totals p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -12368,7 +12368,7 @@ canvas {
 
 .order_sidebar_widget.checkout_page .price,
 .order_sidebar_widget.checkout_page .price {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -12379,7 +12379,7 @@ canvas {
 }
 
 .order_sidebar_widget.checkout_page li.subtitle p {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -12393,7 +12393,7 @@ canvas {
 }
 
 .order_sidebar_widget.checkout_page .payment_method .pmtitle {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -12411,7 +12411,7 @@ canvas {
 }
 
 .ui_kit_checkbox.checkout_pm .custom_checkbox {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
@@ -12425,7 +12425,7 @@ canvas {
 }
 
 .payment_widget_btn .btn-block {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
@@ -12450,7 +12450,7 @@ canvas {
 .shopping_cart_table tbody.table_body td .cart_count {
     border: 1px solid #ebebeb;
     border-radius: 3px;
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-weight: 700;
     height: 55px;
@@ -12478,7 +12478,7 @@ canvas {
 }
 
 .shopping_cart_table .table tbody.table_body tr td {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -12487,7 +12487,7 @@ canvas {
 }
 
 .shopping_cart_table .table tbody.table_body tr td:last-child {
-    color: #041e42;
+    color: #163020;
     cursor: pointer;
     font-size: 14px
 }
@@ -12537,7 +12537,7 @@ canvas {
 .shopping_cart_table .table tbody.table_body tr td .quantity-block .quantity-num,
 .shopping_cart_table .table tbody.table_body tr td .quantity-block .quantity-num2,
 .shopping_cart_table .table tbody.table_body tr td .quantity-block .quantity-num3 {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -12545,7 +12545,7 @@ canvas {
 }
 
 .shopping_cart_table .table thead tr th {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -12554,7 +12554,7 @@ canvas {
 }
 
 .shopping_cart_table tbody.table_body th .cart_list .cart_title {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -12579,7 +12579,7 @@ canvas {
 }
 
 .shop_single_natabmenu .nav-link.active {
-    border: 2px solid #443297;
+    border: 2px solid #163020;
     background-color: transparent
 }
 
@@ -12629,7 +12629,7 @@ canvas {
 .cloth_size_list_sscs_page .nav.nav-pills .nav-link {
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 14px;
     font-weight: 500;
@@ -12647,7 +12647,7 @@ canvas {
 .cloth_size_list_sscs_page li a.active,
 .cloth_size_list_sscs_page .nav.nav-pills .nav-link.active,
 .cloth_size_list_sscs_page li a:hover {
-    background-color: #041e42;
+    background-color: #163020;
     border-radius: 6px;
     color: #fff
 }
@@ -12698,7 +12698,7 @@ canvas {
 }
 
 .home3_cart_item .single_content .details .progressbar .progress-levels .progress-box .bar .bar-fill {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .home3_cart_item .shop_single_product_details .quantity-arrow-minus2.shop_single_page_sidebar,
@@ -12709,7 +12709,7 @@ canvas {
 .home3_cart_item .shop_single_product_details .quantity-arrow-minus2.shop_single_page_sidebar:hover,
 .home3_cart_item .shop_single_product_details .quantity-arrow-plus2.shop_single_page_sidebar:hover {
     background-color: transparent;
-    border: 1px solid #041e42
+    border: 1px solid #163020
 }
 
 .single_product_grid {
@@ -12763,7 +12763,7 @@ canvas {
 
 .shop_single_product_details .shop_item_stock .sis_pagination .page-link,
 .shop_single_product_details .shop_item_stock .sis_pagination .page-link span {
-    color: #041e42;
+    color: #163020;
     border: none;
     font-size: 12px;
     font-style: normal;
@@ -12807,7 +12807,7 @@ canvas {
 }
 
 .shop_single_product_details h4 {
-    color: #041e42;
+    color: #163020;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.182;
@@ -12861,7 +12861,7 @@ canvas {
 }
 
 .shop_single_wishlist_area li a {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -12874,7 +12874,7 @@ canvas {
 }
 
 .shop_single_product_details .sspd_price {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -12895,7 +12895,7 @@ canvas {
 
 .shop_single_table thead tr th,
 .shop_single_table tbody tr th {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -12905,7 +12905,7 @@ canvas {
 }
 
 .shop_single_table tbody tr td {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -12916,7 +12916,7 @@ canvas {
 .shop_single_table.style3 thead tr th,
 .shop_single_table.style3 tbody tr th,
 .shop_single_table.style3 tbody tr td {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -12937,7 +12937,7 @@ canvas {
 
 .shop_item_pack ul li:first-child a {
     border: transparent;
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -12949,7 +12949,7 @@ canvas {
 
 .shop_item_pack ul li:first-child a:hover {
     border: transparent;
-    color: #041e42
+    color: #163020
 }
 
 .shop_item_pack ul li {
@@ -12986,7 +12986,7 @@ canvas {
 
 .shop_single_product_details .cart_btns button.btn {
     border-radius: 60px;
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -12998,7 +12998,7 @@ canvas {
 }
 
 .shop_single_product_details .sspd_sku li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -13013,7 +13013,7 @@ canvas {
 
 .shop_single_siderbar_mini_content p,
 .shop_single_siderbar_mini_content a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -13021,7 +13021,7 @@ canvas {
 }
 
 .shop_single4_sidebar_list li a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -13037,7 +13037,7 @@ canvas {
 }
 
 .shop_single_product_details .sspd_sku li .social_icons a {
-    color: #041e42;
+    color: #163020;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -13072,7 +13072,7 @@ canvas {
 }
 
 .bsp_reveiw_wrt h4 {
-    color: #041e42;
+    color: #163020;
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
@@ -13082,7 +13082,7 @@ canvas {
 
 .review_star li p {
     font-size: 14px;
-    color: #041e42;
+    color: #163020;
     line-height: 1.714;
     padding-left: 10px
 }
@@ -13118,7 +13118,7 @@ canvas {
 }
 
 .bsp_reveiw_wrt .form-check-input {
-    border: 1px solid #041e42;
+    border: 1px solid #163020;
     border-radius: 4px;
     box-shadow: none;
     height: 16px;
@@ -13128,7 +13128,7 @@ canvas {
 }
 
 .bsp_reveiw_wrt .form-check-input:checked {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .bsp_reveiw_wrt label.form-check-label {
@@ -13168,8 +13168,8 @@ canvas {
 .bsp_reveiw_wrt .comments_form .form-group textarea:active,
 .bsp_reveiw_wrt .comments_form .form-group textarea:visited,
 .bsp_reveiw_wrt .comments_form .form-group textarea:focus {
-    color: #041e42;
-    border: 1px solid #041e42;
+    color: #163020;
+    border: 1px solid #163020;
     -webkit-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
     -o-box-shadow: 0 10px 20px rgba(4, 30, 66, 0.05);
@@ -13190,7 +13190,7 @@ canvas {
 
 .bsp_reveiw_wrt .comments_form button.btn {
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -13201,7 +13201,7 @@ canvas {
 }
 
 .bsp_reveiw_wrt .comments_form label {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -13211,7 +13211,7 @@ canvas {
 
 .invoice_down_print {
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     display: inline-block;
     font-style: normal;
     font-weight: 500;
@@ -13262,7 +13262,7 @@ canvas {
 }
 
 .invoice_table .table tr.tblh_row th {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -13272,7 +13272,7 @@ canvas {
 
 .invoice_table .table tr th.tbl_title,
 .invoice_table .table tr td.tbl_title {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -13280,7 +13280,7 @@ canvas {
 }
 
 .invoice_table .table tr td.tblpr_title {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -13290,7 +13290,7 @@ canvas {
 
 .invoice_table .table tr th.tblp_title,
 .invoice_table .table tr td.tblp_title {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -13326,7 +13326,7 @@ canvas {
 
 .account_user_deails .order_table .table th,
 .account_user_deails .order_table .table td {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -13414,13 +13414,13 @@ canvas {
 }
 
 .account_user_deails .dboard_address .title span {
-    color: #443297;
+    color: #163020;
     cursor: pointer;
     position: relative
 }
 
 .account_user_deails .dboard_address p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
@@ -13428,7 +13428,7 @@ canvas {
 }
 
 .order_table .table th {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -13445,7 +13445,7 @@ canvas {
 }
 
 .order_table .table thead th {
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -13474,7 +13474,7 @@ canvas {
 }
 
 .invoice_table .invoice_date .title {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -13498,7 +13498,7 @@ canvas {
 }
 
 .invoice_table .invoice_address h3 {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -13514,7 +13514,7 @@ canvas {
 }
 
 .invoice_table .invoice_address p {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -13522,7 +13522,7 @@ canvas {
 }
 
 .invoice_table .invoice_deails span {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
@@ -13562,7 +13562,7 @@ canvas {
 }
 
 .invoice_footer_content ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -13570,7 +13570,7 @@ canvas {
 }
 
 .invoice_footer_content ul li:hover a {
-    color: #b331ff
+    color: #ffae00
 }
 
 .progress-levels {
@@ -13599,7 +13599,7 @@ canvas {
 }
 
 .progress-levels .progress-box .bar .bar-fill {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 4px;
     left: -100%;
     height: 4px;
@@ -13692,7 +13692,7 @@ canvas {
 }
 
 .addui-slider .addui-slider-track .addui-slider-handle .addui-slider-value span {
-    color: #041e42;
+    color: #163020;
     display: block;
     line-height: 40px;
     position: absolute;
@@ -13822,7 +13822,7 @@ canvas {
 
 .zmart_custom_range_slider .addui-slider .addui-slider-track .addui-slider-handle:after {
     background-color: #fff;
-    border: 2px solid #041e42;
+    border: 2px solid #163020;
     height: 14px;
     left: 20px;
     top: 19px;
@@ -13830,7 +13830,7 @@ canvas {
 }
 
 .zmart_custom_range_slider .addui-slider .addui-slider-track .addui-slider-range {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .editing_list ul {
@@ -13877,7 +13877,7 @@ canvas {
     background-color: #f3f5f6;
     border: 1px solid #f3f5f6;
     border-radius: 3px;
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     height: 40px;
     left: 0;
@@ -13986,7 +13986,7 @@ canvas {
 }
 
 .contact_page_content p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -14028,7 +14028,7 @@ canvas {
 }
 
 .switch input:checked label::before {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .switch input label::before {
@@ -14173,7 +14173,7 @@ canvas#myChart {
 
 .home4_style #mega-menu .btn-mega,
 .home4_style .mega_button_dropdown_menu .btn-mega {
-    color: #041e42
+    color: #163020
 }
 
 .home3_style #mega-menu .btn-mega .pre_line,
@@ -14182,7 +14182,7 @@ canvas#myChart {
 .home4_style #mega-menu .btn-mega .pre_line,
 .home4_style #mega-menu .btn-mega .pre_line:before,
 .home4_style #mega-menu .btn-mega .pre_line:after {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .btn-mega.home7_style:after,
@@ -14232,7 +14232,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 .mega_button_dropdown_menu .btn-mega.home4 .pre_line,
 .mega_button_dropdown_menu .btn-mega.home4 .ctr_title,
 .mega_button_dropdown_menu .btn-mega.home4 .icon {
-    color: #041e42
+    color: #163020
 }
 
 #mega-menu .btn-mega.home4 .icon,
@@ -14250,7 +14250,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 .mega_button_dropdown_menu .btn-mega.home4 .pre_line,
 .mega_button_dropdown_menu .btn-mega.home4 .pre_line:after,
 .mega_button_dropdown_menu .btn-mega.home4 .pre_line:before {
-    background-color: #041e42
+    background-color: #163020
 }
 
 #mega-menu ul.menu.home4_style,
@@ -14335,7 +14335,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 .home5_style_megamenu_btn #mega-menu .btn-mega .pre_line,
 .home5_style_megamenu_btn #mega-menu .btn-mega .pre_line:before,
 .home5_style_megamenu_btn #mega-menu .btn-mega .pre_line:after {
-    background-color: #041e42
+    background-color: #163020
 }
 
 #mega-menu .btn-mega .pre_line:before {
@@ -14391,7 +14391,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 
 #mega-menu ul.menu li:hover {
     background-color: #f3f5f6;
-    border-left: 2px solid #443297
+    border-left: 2px solid #163020
 }
 
 .home7_style #mega-menu ul.menu li.list:hover,
@@ -14411,7 +14411,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 #mega-menu ul.menu li:hover a {
-    color: #443297
+    color: #163020
 }
 
 #mega-menu ul.menu li:last-child a,
@@ -14423,7 +14423,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 #mega-menu ul.menu li:hover a.dropdown:after,
 .mega_button_dropdown_menu ul.menu li:hover a span,
 .mega_button_dropdown_menu ul.menu li:hover a.dropdown:after {
-    color: #443297
+    color: #163020
 }
 
 #mega-menu ul.menu li a.dropdown:after,
@@ -14433,12 +14433,12 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
     font-family: "FontAwesome";
     right: 29px;
     font-size: 14px;
-    color: #041e42
+    color: #163020
 }
 
 #mega-menu ul.menu li a .menu-icn,
 .mega_button_dropdown_menu ul.menu li a .menu-icn {
-    color: #041e42;
+    color: #163020;
     font-size: 20px;
     margin-right: 8px;
     min-width: 30px;
@@ -14449,7 +14449,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 
 #mega-menu ul.menu li a .menu-title,
 .mega_button_dropdown_menu ul.menu li a .menu-title {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     line-height: 50px
 }
@@ -14508,7 +14508,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 
 #mega-menu ul.menu li .drop-menu .one-third .cat-title,
 .mega_button_dropdown_menu ul.menu li .drop-menu .one-third .cat-title {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -14526,7 +14526,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 #mega-menu ul.menu li .drop-menu .one-third ul li a,
 .mega_button_dropdown_menu ul.menu li .drop-menu .one-third ul li a {
     border-bottom: none;
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     height: auto;
@@ -14545,7 +14545,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 #mega-menu ul.menu li .drop-menu .one-third ul li a:hover {
-    color: #443297;
+    color: #163020;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
@@ -14663,7 +14663,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .search-suggestions .box-suggestions ul li .info-product .item_title {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -14671,7 +14671,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .search-suggestions .box-suggestions ul li .info-product .price .sale {
-    color: #443297;
+    color: #163020;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -14720,7 +14720,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 
 .checkout_country_form .options li,
 .actegory .options li {
-    color: #041e42;
+    color: #163020;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -15126,7 +15126,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .banner_one .details .title {
-    color: #041e42;
+    color: #163020;
     font-size: 26px;
     font-weight: 500;
     line-height: 38px;
@@ -15253,7 +15253,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .banner_one.large .details .para {
-    color: #041e42;
+    color: #163020;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -15267,11 +15267,11 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .banner_one.large .shop_btn.style2 {
-    color: #041e42
+    color: #163020
 }
 
 .banner_one.large .shop_btn.style2:before {
-    background-color: #041e42
+    background-color: #163020
 }
 
 .banner_one.large .shop_btn.style2.white:before {
@@ -15315,7 +15315,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .apple_widget_home1 .para {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 23px;
@@ -15323,7 +15323,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 }
 
 .apple_widget_home1 a.btn {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
@@ -15358,7 +15358,7 @@ header.header-nav.menu_style_home_one.home5_styles .ace-responsive-menu li ul.su
 
 .shop_btn,
 a.shop_btn {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 15px;
     font-weight: 500;
@@ -15370,7 +15370,7 @@ a.shop_btn {
 
 .shop_btn:before,
 a.shop_btn:before {
-    background-color: #041e42;
+    background-color: #163020;
     bottom: -7px;
     content: "";
     height: 2px;
@@ -15398,7 +15398,7 @@ a.shop_btn:before {
 
 .banner_one.dark .details .title,
 .banner_one.dark .details .para {
-    color: #041e42
+    color: #163020
 }
 
 .banner_one.dark .details .shop_btn:before {
@@ -15435,7 +15435,7 @@ a.shop_btn:before {
 }
 
 .custom_shop_category_nav_list_menu ul li a {
-    color: #041e42;
+    color: #163020;
     display: block;
     font-family: "Jost";
     font-style: normal;
@@ -15450,7 +15450,7 @@ a.shop_btn:before {
 }
 
 .custom_shop_category_nav_list_menu ul li a:before {
-    background-color: #041e42;
+    background-color: #163020;
     bottom: 0;
     content: "";
     height: 2px;
@@ -15604,7 +15604,7 @@ a.shop_btn:before {
 }
 
 .shop_item .thumb_info ul li:hover {
-    background-color: #b331ff;
+    background-color: #ffae00;
     -webkit-box-shadow: 0 10px 50px rgba(4, 30, 66, 0.05);
     -moz-box-shadow: 0 10px 50px rgba(4, 30, 66, 0.05);
     -ms-box-shadow: 0 10px 50px rgba(4, 30, 66, 0.05);
@@ -15625,7 +15625,7 @@ a.shop_btn:before {
 }
 
 .shop_item .thumb_info.home6_style.gray_style ul li:hover a {
-    color: #041e42
+    color: #163020
 }
 
 .shop_item .thumb_info.home5_dark_style ul li:hover a,
@@ -15634,7 +15634,7 @@ a.shop_btn:before {
 }
 
 .shop_item .thumb_info ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px
 }
 
@@ -15649,7 +15649,7 @@ a.shop_btn:before {
 
 .shop_item .details .title,
 .shop_item .details .title a {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -15691,13 +15691,13 @@ a.shop_btn:before {
 }
 
 .shop_item .details .title:hover a {
-    color: #443297;
+    color: #163020;
     text-decoration: underline
 }
 
 .shop_item.small_style .details .title,
 .shop_item.small_style .details .title a {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 500;
     line-height: 28px;
@@ -15720,7 +15720,7 @@ a.shop_btn:before {
 
 .shop_item .details .si_footer .price,
 .shop_item.list_style .si_footer .price {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -15800,7 +15800,7 @@ a.shop_btn:before {
 }
 
 .shop_item .details .si_footer .sell_stock {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 14px;
     font-weight: 400;
@@ -15809,7 +15809,7 @@ a.shop_btn:before {
 }
 
 .shop_item .details .si_footer .line:before {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 6px;
     content: "";
     height: 6px;
@@ -15891,8 +15891,8 @@ a.shop_btn:before {
 
 .shop_item.style4 .thumb_info ul li a:hover,
 .shop_item.style5 .thumb_info ul li a:hover {
-    background-color: #b331ff;
-    border: 1px solid #b331ff
+    background-color: #ffae00;
+    border: 1px solid #ffae00
 }
 
 .shop_item.style5 .thumb_info ul li:last-child {
@@ -15933,7 +15933,7 @@ a.shop_btn:before {
 
 .shop_item.style4 .thumb_info ul li a span,
 .shop_item.style5 .thumb_info ul li a span {
-    color: #041e42;
+    color: #163020;
     font-size: 18px;
     line-height: 3
 }
@@ -15948,7 +15948,7 @@ a.shop_btn:before {
 }
 
 .shop_item.style6 .product_action_info ul li a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -15956,7 +15956,7 @@ a.shop_btn:before {
 }
 
 .shop_item.style6 .product_action_info ul li a span {
-    color: #041e42;
+    color: #163020;
     margin-right: 5px;
     vertical-align: middle
 }
@@ -16029,7 +16029,7 @@ a.shop_btn:before {
 }
 
 .shop_item.wishlist_style .close_list span {
-    color: #041e42;
+    color: #163020;
     font-size: 10px
 }
 
@@ -16047,7 +16047,7 @@ a.shop_btn:before {
 }
 
 .shop_item.list_style .product_action_info ul li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 14px;
     font-weight: 400;
@@ -16056,7 +16056,7 @@ a.shop_btn:before {
 }
 
 .shop_item.list_style .product_action_info ul li a span {
-    color: #041e42;
+    color: #163020;
     margin-right: 5px;
     vertical-align: middle
 }
@@ -16089,7 +16089,7 @@ a.shop_btn:before {
 }
 
 .shop_item_list_features ul li a {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 14px;
     font-weight: 400;
@@ -16112,7 +16112,7 @@ a.shop_btn:before {
 
 .shop_item.tiny_style .title,
 .shop_item.tiny_style a {
-    color: #041e42;
+    color: #163020;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -16197,7 +16197,7 @@ a.shop_btn:before {
 }
 
 .deal_counter .title {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -16242,7 +16242,7 @@ a.shop_btn:before {
 .deal_counter.home7_style .hours,
 .deal_counter.home7_style .minutes,
 .deal_counter.home7_style .seconds {
-    color: #041e42;
+    color: #163020;
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -16279,7 +16279,7 @@ a.shop_btn:before {
 }
 
 .mailchimp_widget .details .title {
-    color: #041e42;
+    color: #163020;
     font-family: Jost;
     font-size: 28px;
     font-style: normal;
@@ -16302,7 +16302,7 @@ a.shop_btn:before {
 }
 
 .mailchimp_widget.home6 .details .title {
-    color: #041e42
+    color: #163020
 }
 
 .mailchimp_widget.home6 .details p {
@@ -16314,7 +16314,7 @@ a.shop_btn:before {
 }
 
 .location_lists .title {
-    color: #041e42;
+    color: #163020;
     line-height: 26px;
     letter-spacing: 0;
     margin-bottom: 10px
@@ -16325,7 +16325,7 @@ a.shop_btn:before {
 }
 
 .location_lists ul li a {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -16333,7 +16333,7 @@ a.shop_btn:before {
 }
 
 .locate_map_btn {
-    color: #041e42;
+    color: #163020;
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
@@ -16342,7 +16342,7 @@ a.shop_btn:before {
 }
 
 .locate_map_btn:before {
-    background-color: #041e42;
+    background-color: #163020;
     bottom: -10px;
     content: "";
     height: 2px;
@@ -16364,7 +16364,7 @@ a.shop_btn:before {
 }
 
 .vendor_iconbox .details .title {
-    color: #041e42;
+    color: #163020;
     font-size: 26px;
     font-weight: 500;
     line-height: 38px;
@@ -16377,7 +16377,7 @@ a.shop_btn:before {
 }
 
 .vendor_iconbox .details p {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -16385,7 +16385,7 @@ a.shop_btn:before {
 }
 
 .funfact_content {
-    background-color: #b331ff;
+    background-color: #ffae00;
     border-radius: 6px;
     padding: 50px 0 40px;
     position: relative
@@ -16419,7 +16419,7 @@ a.shop_btn:before {
 }
 
 .single_product .product_popup span {
-    color: #041e42;
+    color: #163020;
     font-size: 16px
 }
 
@@ -16432,7 +16432,7 @@ a.shop_btn:before {
 }
 
 .cart_list_home5_style .point {
-    background-color: #041e42;
+    background-color: #163020;
     border-radius: 50%;
     height: 30px;
     line-height: 30px;
@@ -16532,7 +16532,7 @@ a.shop_btn:before {
 }
 
 .cart_list_home5_style .thumb .badge {
-    background-color: #041e42;
+    background-color: #163020;
     border: 2px solid #fff;
     border-radius: 50%;
     color: #fff;
@@ -16549,7 +16549,7 @@ a.shop_btn:before {
 }
 
 .cart_list_home5_style .title {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -16565,7 +16565,7 @@ a.shop_btn:before {
 }
 
 .cart_list_home5_style .price {
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -16601,7 +16601,7 @@ a.shop_btn:before {
 }
 
 .icon_boxes .icon span {
-    color: #041e42
+    color: #163020
 }
 
 .icon_boxes .details .title {
@@ -16638,9 +16638,9 @@ a.shop_btn:before {
 
 .about_page_shop_btn {
     background-color: #fff;
-    border: 2px solid #b331ff;
+    border: 2px solid #ffae00;
     border-radius: 6px;
-    color: #041e42;
+    color: #163020;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -16711,7 +16711,7 @@ a.shop_btn:before {
 .shop_item_6grid_slider.owl-theme .owl-nav .owl-prev,
 .shop_item_6grid_slider.owl-theme .owl-nav .owl-next {
     background-color: #fff;
-    color: #041e42;
+    color: #163020;
     position: absolute
 }
 
@@ -16763,7 +16763,7 @@ a.shop_btn:before {
 .shop_item_4grid_slider.home10_style.owl-theme .owl-nav .owl-next:hover,
 .shop_item_4grid_slider2.home10_style.owl-theme .owl-nav .owl-prev:hover,
 .shop_item_4grid_slider2.home10_style.owl-theme .owl-nav .owl-next:hover {
-    color: #443297
+    color: #163020
 }
 
 .category_list_box {
@@ -16800,7 +16800,7 @@ a.shop_btn:before {
 
 .category_list_box ul li:hover,
 .category_list_box ul li:hover a {
-    color: #041e42
+    color: #163020
 }
 
 .category_list_box ul li a {
@@ -16899,7 +16899,7 @@ a.shop_btn:before {
 .navi_pagi_bottom_left.main-banner-wrapper.carousel-btn-block.carousel-btn.right-btn,
 .navi_pagi_bottom_center.main-banner-wrapper.carousel-btn-block.carousel-btn.left-btn,
 .navi_pagi_bottom_center.main-banner-wrapper.carousel-btn-block.carousel-btn.right-btn {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     line-height: 20px;
     padding: 0;
@@ -17080,7 +17080,7 @@ a.shop_btn:before {
 }
 
 .vendor_about .para {
-    color: #041e42;
+    color: #163020;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -17118,7 +17118,7 @@ a.shop_btn:before {
     border: none;
     border-radius: 6px;
     box-sizing: border-box;
-    color: #041e42;
+    color: #163020;
     font-size: 10px;
     height: 25px;
     line-height: 20px;
@@ -17157,7 +17157,7 @@ a.shop_btn:before {
 .quantity-arrow-minus3.inner_page,
 .quantity-arrow-minus3.home_page_sidebar {
     border-radius: 50%;
-    color: #041e42;
+    color: #163020;
     left: 10px;
     top: 15px
 }
@@ -17189,7 +17189,7 @@ input[type="number"] {
 .quantity-arrow-plus3.inner_page,
 .quantity-arrow-plus3.home_page_sidebar {
     border-radius: 50%;
-    color: #041e42;
+    color: #163020;
     font-size: 8px;
     top: 15px;
     /* -webkit-transform: rotate(45deg);
@@ -17225,7 +17225,7 @@ input[type="number"] {
 .quantity-arrow-minus2.home_page_sidebar:hover,
 .quantity-arrow-plus2.home_page_sidebar:hover {
     background-color: #f3f5f6;
-    color: #041e42
+    color: #163020
 }
 
 .quantity-num,
@@ -17268,7 +17268,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 .zmart_testimonial_slider.home9_style .swiper-button-next {
     background-color: transparent;
     border: 1px solid #eaeaea;
-    color: #041e42
+    color: #163020
 }
 
 .zmart_testimonial_slider.home9_style .swiper-button-prev:hover,
@@ -17304,11 +17304,11 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 
 .radio-custom.dark_bg .radio-custom-label.dark_bg:before {
-    background-color: #041E42
+    background-color: #163020
 }
 
 .radio-custom.violet_bg .radio-custom-label.violet_bg:before {
-    background-color: #443297
+    background-color: #163020
 }
 
 .radio-custom.light_blue_bg .radio-custom-label.light_blue_bg:before {
@@ -17316,7 +17316,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 
 .radio-custom.yellow_bg .radio-custom-label.yellow_bg:before {
-    background-color: #b331ff
+    background-color: #ffae00
 }
 
 .radio-custom.gray_bg .radio-custom-label.gray_bg:before {
@@ -17336,7 +17336,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 
 .radio-custom.yellow_bg:checked .radio-custom-label.yellow_bg:before,
 .radio-custom:checked .radio-custom-label:before {
-    color: #041E42
+    color: #163020
 }
 
 .radio-custom:checked .radio-custom-label:before {
@@ -17361,13 +17361,13 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #443297;
+    background-color: #163020;
     border-radius: 10px;
 }
 
 
 .btn-custom{
-    background-color: #443297; 
+    background-color: #163020; 
     color: #fff; 
     text-align: center; 
     padding: 10px; 
@@ -17398,7 +17398,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 
 .purple-btn{
-    background-color: #b331ff; 
+    background-color: #ffae00; 
     color: #fff;
     border-radius: 6px;
 }
@@ -17410,7 +17410,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 
 .purple-btn:hover{
-    background-color: #b331ff; 
+    background-color: #ffae00; 
     color: #fff;
 }
 

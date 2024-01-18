@@ -16,6 +16,12 @@ import os
 import environ
 import dj_database_url
 
+
+try:
+    from ecommerce_prj.constants import *
+except ImportError:
+    pass
+
 env = environ.Env()
 environ.Env.read_env()
 
@@ -117,26 +123,25 @@ WSGI_APPLICATION = 'ecommerce_prj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-# To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
-
 # DATABASES = {
-#   'default': {
-#     'ENGINE': 'django.db.backends.postgresql',
-#     'NAME': 'yummy2',
-#     'USER': 'info',
-#     'PASSWORD': 'UlmhNj4pd0Yg',
-#     'HOST': 'ep-holy-term-a59wkrr8.us-east-2.aws.neon.tech',
-#     'PORT': '5432',
-#     'OPTIONS': {'sslmode': 'require'},
-#   }
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
 # }
+DATABASES = {
+  'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'fflmain',
+    'USER': 'noyam63250',
+    'PASSWORD': 'z6Qn8EOsIyVX',
+    'HOST': 'ep-jolly-credit-97209198.eu-central-1.aws.neon.tech',
+    'PORT': '5432',
+    'OPTIONS': {'sslmode': 'require'},
+  }
+}
+#Sec
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': env("ENGINE"),
@@ -148,9 +153,24 @@ DATABASES = {
 #     }
 # }
 
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(db_from_env)
 
+#noyam63250@jalunaki.com 
+
+
+# DATABASES = {
+#   'default': {
+#     'ENGINE': 'django.db.backends.postgresql',
+#     'NAME': 'fflmain',
+#     'USER': 'noyam63250',
+#     'PASSWORD': 'z6Qn8EOsIyVX',
+#     'HOST': 'ep-jolly-credit-97209198.eu-central-1.aws.neon.tech',
+#     'PORT': '5432',
+#     'OPTIONS': {'sslmode': 'require'},
+#   }
+# }
+#Security!1234
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -176,7 +196,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
@@ -447,12 +467,12 @@ CKEDITOR_5_CONFIGS = {
 
 
 JAZZMIN_SETTINGS = {
-    'site_header': "Desphixs",
+    'site_header': "Food For Less",
     'site_brand': "Your #1 marketplace for collectibles.",
     'site_logo': "images/logo.png",
     'copyright':  "All Right Reserved 2023",
     # "order_with_respect_to": ["store", 'vendor', "addons" , 'core' ,'userauths'],
-    "welcome_sign": "Welcome to Desphixs, Login Now.",
+    "welcome_sign": "Food For Less, Login Now.",
     "topmenu_links": [
 
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
@@ -542,38 +562,39 @@ JAZZMIN_SETTINGS = {
 
     "show_ui_builder" : True
 }
+
+
 JAZZMIN_UI_TWEAKS = {
-    "navbar_small_text": False,
-    "footer_small_text": False,
+    "navbar_small_text": True,
+    "footer_small_text": True,
     "body_small_text": True,
-    "brand_small_text": False,
-    "brand_colour": "navbar-indigo",
-    "accent": "accent-olive",
-    "navbar": "navbar-indigo navbar-dark",
+    "brand_small_text": True,
+    "brand_colour": "navbar-light",
+    "accent": "accent-navy",
+    "navbar": "navbar-white navbar-light",
     "no_navbar_border": False,
     "navbar_fixed": False,
     "layout_boxed": False,
     "footer_fixed": False,
     "sidebar_fixed": False,
-    "sidebar": "sidebar-dark-indigo",
-    "sidebar_nav_small_text": False,
+    "sidebar": "sidebar-dark-navy",
+    "sidebar_nav_small_text": True,
     "sidebar_disable_expand": False,
     "sidebar_nav_child_indent": False,
     "sidebar_nav_compact_style": False,
     "sidebar_nav_legacy_style": False,
     "sidebar_nav_flat_style": False,
-    "theme": "cyborg",
-    "dark_mode_theme": "cyborg",
+    "theme": "pulse",
+    "dark_mode_theme": None,
     "button_classes": {
-        "primary": "btn-primary",
-        "secondary": "btn-secondary",
-        "info": "btn-info",
+        "primary": "btn-outline-primary",
+        "secondary": "btn-outline-secondary",
+        "info": "btn-outline-info",
         "warning": "btn-warning",
-        "danger": "btn-danger",
-        "success": "btn-success"
+        "danger": "btn-outline-danger",
+        "success": "btn-outline-success"
     }
 }
-
 import os
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')

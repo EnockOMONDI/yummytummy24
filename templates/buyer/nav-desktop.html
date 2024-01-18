@@ -3,7 +3,7 @@
       list-style: none;
    }
 </style>
-<div class="col-lg-3 col-xl-2 dn-md">
+<div class="col-lg-3 col-xl-2 dn-md" style="margin-top: -70px;">
     <div class="users_account_details extra-dashboard-menu">
        <div class="account_details_user d-flex pb10 bb1 mb10">
           <img class="me-3" src="{{request.user.profile.image.url}}" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;" alt="Generic placeholder image">
@@ -15,7 +15,7 @@
              <h5 class="title">{{request.user.username|title}}</h5>
              {% endif %}
                 
-             <a class="stitle" >{{request.user.email}}</a>
+             <!-- <a class="stitle" >{{request.user.email}}</a> -->
              <a class="stitle" >Account ID: <b><i>{{request.user.id}}</i></b></a>
           </div>
        </div>

@@ -1,17 +1,17 @@
-{% extends "partials/base.html" %} 
+{% extends "partials/ffless/basestandard.html" %}
 {% load static %} {% load crispy_forms_tags %} 
 {% block title %}
   Messages
 {% endblock title %}
 {% block content %}
-<section class="our-dashbord dashbord" style="margin-top: 80px">
+<section class="our-dashbord dashbord" style="margin-top: 0px">
   <div class="container">
     <div class="row">
       {% include 'buyer/nav-desktop.html' %}
       <div class="col-lg-9 col-xl-9">
         {% include 'buyer/nav-mobile.html' %}
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12" style="margin-top: -100px;">
             <div class="account_user_deails pl40 pl0-md">
               <div class="ui_kit_tab style2">
                 <div class="row pb50">

@@ -131,10 +131,12 @@ WSGI_APPLICATION = 'ecommerce_prj.wsgi.application'
 # }
 # To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
+# To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
+
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'yummy2',
+    'NAME': 'yummymain',
     'USER': 'info',
     'PASSWORD': 'UlmhNj4pd0Yg',
     'HOST': 'ep-holy-term-a59wkrr8.us-east-2.aws.neon.tech',

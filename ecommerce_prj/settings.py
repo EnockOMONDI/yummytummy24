@@ -129,17 +129,7 @@ WSGI_APPLICATION = 'ecommerce_prj.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-# DATABASES = {
-#   'default': {
-#     'ENGINE': 'django.db.backends.postgresql',
-#     'NAME': 'fflmain',
-#     'USER': 'noyam63250',
-#     'PASSWORD': 'z6Qn8EOsIyVX',
-#     'HOST': 'ep-jolly-credit-97209198.eu-central-1.aws.neon.tech',
-#     'PORT': '5432',
-#     'OPTIONS': {'sslmode': 'require'},
-#   }
-# }
+
 # To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
 DATABASES = {
@@ -480,12 +470,12 @@ CKEDITOR_5_CONFIGS = {
 
 
 JAZZMIN_SETTINGS = {
-    'site_header': "Food For Less",
+    'site_header': "Yummy Tummy",
     'site_brand': "Your #1 marketplace for collectibles.",
     'site_logo': "images/logo.png",
     'copyright':  "All Right Reserved 2023",
     # "order_with_respect_to": ["store", 'vendor', "addons" , 'core' ,'userauths'],
-    "welcome_sign": "Food For Less, Login Now.",
+    "welcome_sign": "Yummy Tummy, Login Now.",
     "topmenu_links": [
 
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},

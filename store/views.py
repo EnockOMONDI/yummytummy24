@@ -65,7 +65,7 @@ def index(request):
         "products":products,
         "top_selling_products":top_selling_products,
     }
-    return render(request, 'store/ffless/indexmain.html', context)
+    return render(request, 'store/yummytummy/indexmain.html', context)
       
 
 
@@ -85,7 +85,7 @@ def indexmain(request):
     
     
    
-    return render(request, 'store/ffless/indexmain.html',  context={
+    return render(request, 'store/yummytummy/indexmain.html',  context={
         'all_products':all_products,
         'addon':addon,
         'posts':posts,

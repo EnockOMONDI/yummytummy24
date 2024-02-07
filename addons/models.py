@@ -87,8 +87,8 @@ class BasicAddon(models.Model):
     affiliate_commission_percentage = models.IntegerField(default=50, help_text="NOTE: Numbers added here are in percentage (%)")
     general_tax_percentage = models.IntegerField(default=5, help_text="NOTE: Numbers added here are in percentage (%)")
     vendor_fee_percentage = models.IntegerField(default=5, help_text="NOTE: Numbers added here are in percentage (%)")
-    currency_sign = models.CharField(default="$", max_length=10)
-    currency_abbreviation = models.CharField(default="USD", max_length=10)
+    currency_sign = models.CharField(default="KES", max_length=10)
+    currency_abbreviation = models.CharField(default="KES", max_length=10)
     registration_form_type = models.CharField(max_length=50, choices=REG_FORM, default="classic")
     send_email_notifications = models.BooleanField(default=False)
     payout_vendor_fee_immediately = models.BooleanField(default=True)
@@ -134,7 +134,7 @@ class EarningPoints(models.Model):
     signup_point = models.IntegerField(default=10)
     enable_signup_point = models.BooleanField(default=True)
     text = models.CharField(default="Point", max_length=10 )
-    referral_point = models.PositiveIntegerField(default=500, help_text="Enter an amount that user will get when they refer thier friend")
+    referral_point = models.PositiveIntegerField(default=100, help_text="Enter an amount that user will get when they refer thier friend")
 
     
     class Meta:
@@ -193,7 +193,7 @@ class SupportContactInformation(models.Model):
     
 class TaxRate(models.Model):
     country = models.CharField(max_length=200)
-    rate = models.IntegerField(default=5, help_text="Numbers added here are in percentage (5 = 5%)")
+    rate = models.IntegerField(default=0, help_text="Numbers added here are in percentage (5 = 5%)")
     active = models.BooleanField(default=True)
     custom_name = models.CharField(default="Tax", max_length=100, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)

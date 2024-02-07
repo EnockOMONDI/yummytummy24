@@ -785,7 +785,11 @@ def cart_view(request):
     
     main_cart_total = 0
     main_cart_total_item = 0
-    # tax_rate = 0
+    if tax_country is not None:
+        tax_rate = tax_country.rate / 100
+    else:
+    # Handle the case where tax_country is None
+        tax_rate = 0 
     
     try:
         location_country = request.session['location_country']

@@ -9,6 +9,18 @@
     {% block content %}
     {% load humanize %}
 
+    
+<section  class="" data-bg-src="{% static 'assets/img/shape/shpe-8-1.png' %}"  style="background-image: url({% static 'assets/img/shape/shpe-8-1.png' %});'">
+<div class="container"  >
+
+
+    <div class="section-title text-center" style="padding-top: 70px;">
+      <!-- <div class="sec-icon">
+        <img src="{% static 'assets/img/foodforless.png'%}" style="width: 100%;" alt="icon">
+
+      </div> -->
+      <h4 class="sec-title5">Hey {{user.username}}, <br> welcome to Yummy tummy Goodies </h4>
+    </div>
     {% if messages %} {% for message in messages %}
     <div
       class="alert alert-{{message.tags}} text-center"
@@ -28,23 +40,12 @@
       }, 30);
     </script>
     {% endfor %} {% endif %}
-<section  class="" data-bg-src="{% static 'assets/img/shape/shpe-8-1.png' %}"  style="background-image: url({% static 'assets/img/shape/shpe-8-1.png' %});'">
-<div class="container"  >
-
-
-    <div class="section-title text-center" style="padding-top: 90px;">
-      <!-- <div class="sec-icon">
-        <img src="{% static 'assets/img/foodforless.png'%}" style="width: 100%;" alt="icon">
-
-      </div> -->
-      <h3 class="sec-title5">Hey {{user.username}}, <br> welcome to Yummy tummy Goodies </h3>
-    </div>
     <div class="container">
       <div style="margin: 0px;">
       <div class="row gx-0">
         <div class="col-md-4 feature-style2">
           <div class="feature-img">
-            <img src="{% static 'assets/img/icons/feature-icon-2-1.png'%}" alt="icons">
+            <img src="{% static 'assets/img/icons/feature-icon-2-2.png'%}" alt="icons">
           </div>
           <h3 class="feature-title">Shop Our Stores</h3>
           <p class="feature-text">Choose a veg box and top up from our range of organic veg, fruit, meat, dairy and recipe boxes.</p>
@@ -52,25 +53,24 @@
         
         <div class="col-md-4 feature-style2">
           <div class="feature-img">
-            <img src="{% static 'assets/img/icons/feature-icon-2-2.png'%}" alt="icons">
+            <img src="{% static 'assets/img/icons/feature-icon-2-3.png'%}" alt="icons">
+
           </div>
           <h3 class="feature-title">Amazing beg, Good Health</h3>
           <p class="feature-text">Your local veg team will deliver for free - and collect your packaging to reuse. No need to be home!</p>
         </div>
         <div class="col-md-4 feature-style2">
           <div class="feature-img">
-            <img src="{% static 'assets/img/icons/feature-icon-2-3.png'%}" alt="icons">
+            <img src="{% static 'assets/img/icons/feature-icon-2-1.png'%}" alt="icons">
+
           </div>
           <h3 class="feature-title">Enjoy free delivery</h3>
           <p class="feature-text">Live life on the veg, cook and eat brilliant seasonal dishes, and make a positive impact on the world.</p>
         </div>
       </div>
-      <div class="text-center">
-        <a href="{% url 'core:buyer_welcome_address' %}" class="vs-btn style3 ls-btn">Add Address<i class="far fa-angle-right"></i>
 
-      </div>
       <div class="text-center">
-        <a href="{% url 'store:shop' %}" class="vs-btn style3 ls-btn">Skip<i class="far fa-angle-right"></i>
+        <a href="{% url 'store:shop' %}" class="vs-btn style3 ls-btn">Start shopping<i class="far fa-angle-right"></i>
 
       </div>
     </div>

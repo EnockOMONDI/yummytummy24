@@ -51,7 +51,7 @@ def default(request):
     try:
         cs = basic_addon.currency_sign
     except:
-        cs = "$"
+        cs = "KES"
     try:
         homepage_style = basic_addon.homepage_style
     except:
@@ -60,7 +60,7 @@ def default(request):
         ca = basic_addon.currency_abbreviation
         
     except :
-        ca = 'USD'
+        ca = 'KES'
     try:
         signup_form = basic_addon.registration_form_type
     except:

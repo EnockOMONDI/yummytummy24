@@ -38,6 +38,36 @@ from decimal import Decimal
 from anymail.message import attach_inline_image_file
 from paypal.standard.forms import PayPalPaymentsForm
 
+import base64
+from datetime import datetime
+import requests
+from requests.auth import HTTPBasicAuth
+import store.keys 
+# from cart.cart import Cart
+
+
+unformatted_time = datetime.now()
+formatted_time = unformatted_time.strftime("%Y%m%d%H%M%S")
+# print(formatted_time, "this is the formatted time")
+
+data_to_be_encoded = store.keys.business_shortCode + store.keys.lipa_na_mpesa_passkey + formatted_time 
+encoded_string = base64.b64encode(data_to_be_encoded.encode())
+decoded_password = encoded_string.decode('utf-8')
+
+
+  
+consumer_key = store.keys.consumer_key
+consumer_secret = store.keys.consumer_secret
+api_URL = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
+  
+r = requests.get(api_URL, auth=HTTPBasicAuth(consumer_key, consumer_secret))
+  
+
+
+json_response = r.json() #{'access_token': 'zqNte7R18kA1z29GgNPre0eNDvEr', 'expires_in': '3599'}
+
+my_access_token = json_response['access_token']
+
 
 utc=pytz.UTC
 
@@ -785,11 +815,7 @@ def cart_view(request):
     
     main_cart_total = 0
     main_cart_total_item = 0
-    if tax_country is not None:
-        tax_rate = tax_country.rate / 100
-    else:
-    # Handle the case where tax_country is None
-        tax_rate = 0 
+    # tax_rate = 0
     
     try:
         location_country = request.session['location_country']
@@ -1509,6 +1535,11 @@ def update_cart(request):
 
 
 def checkout_view(request, oid, *args, **kwargs):
+    access_token = my_access_token 
+   
+    api_url = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
+
+    headers = { "Authorization": "Bearer %s" % access_token }
     try:
         order = CartOrder.objects.get(oid=oid)
         if order.payment_status == "paid":
@@ -1640,18 +1671,21 @@ def checkout_view(request, oid, *args, **kwargs):
         
         
         host = request.get_host()
-        paypal_dict = {
-            'business': settings.PAYPAL_RECEIVER_EMAIL,
-            'amount': order.total,
-            'item_name': "Order-Item-No-" + str(order.id),
-            'invoice': "INVOICE_NO-" + str(timezone.now()),
-            'currency_code': "USD",
-            'notify_url': 'http://{}{}'.format(host, reverse("store:paypal-ipn")),
-            'return_url': 'http://{}{}'.format(host, reverse("store:payment-completed", kwargs={'oid': order.oid})),
-            'cancel_url': 'http://{}{}'.format(host, reverse("store:payment-failed")),
-        }
+       
+        request = {
+        "BusinessShortCode": store.keys.business_shortCode ,
+        "Password": decoded_password,
+        "Timestamp": formatted_time ,
+        "TransactionType": "CustomerPayBillOnline",
+        "amount': order.total,"
+        "PartyA": store.keys.phone_number,
+        "PartyB": store.keys.business_shortCode,
+        "PhoneNumber": store.keys.phone_number,
+        "CallBackURL": "https://yummytummy.co.ke/lipanampesa",
+        "AccountReference": "8686",
+        "TransactionDesc": "buyitem"
+         }
         
-        paypal_payment_button = PayPalPaymentsForm(initial=paypal_dict)
     except CartOrder.DoesNotExist:
         messages.warning(request, "The order you are trying is access does not exist.")
         return redirect("store:home")
@@ -1659,11 +1693,12 @@ def checkout_view(request, oid, *args, **kwargs):
         "order":order, 
         "address":address, 
         "order_items":order_items, 
-        "paypal_payment_button":paypal_payment_button, 
-        "stripe_publishable_key":settings.STRIPE_PUBLISHABLE_KEY, 
+   
         }
 
     return render(request, "store/checkout.html", context)
+
+
 
 
 

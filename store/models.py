@@ -19,6 +19,7 @@ from vendor.models import Vendor, Coupon
 
 
 
+
 STATUS_CHOICE = (
     ("processing", "Processing"),
     ("shipped", "Shipped"),
@@ -453,3 +454,48 @@ class Review(models.Model):
     def get_rating(self):
         return self.rating
     
+
+# class Destination(models.Model):
+#     title = models.CharField(max_length=100)
+#     image = models.ImageField(upload_to="destination", default="destination.jpg")
+#     description = models.TextField()
+#     slug = models.SlugField(unique=True)
+
+#     class Meta:
+#         verbose_name_plural = "Destinations"
+
+#     def destination_image(self):
+#         return mark_safe('<img src="%s" width="50" height="50" style="object-fit:cover; border-radius: 6px;" />' % (self.image.url))
+
+#     def __str__(self):
+#         return self.title
+
+#     def save(self, *args, **kwargs):
+#         self.slug = slugify(self.title)
+#         super().save(*args, **kwargs)
+
+# class TravelPackage(models.Model):
+#     title = models.CharField(max_length=100)
+#     destination = models.ForeignKey(Destination, on_delete=models.CASCADE)
+#     description = models.TextField()
+#     price = models.DecimalField(max_digits=12, decimal_places=2)
+#     status = models.CharField(choices=STATUS_CHOICE, max_length=10, default="published")
+
+#     class Meta:
+#         verbose_name_plural = "Travel Packages"
+
+#     def __str__(self):
+#         return self.title
+
+# class Itinerary(models.Model):
+#     travel_package = models.ForeignKey(TravelPackage, on_delete=models.CASCADE)
+#     day_number = models.PositiveIntegerField()
+#     title = models.CharField(max_length=100)
+#     description = models.TextField()
+
+#     class Meta:
+#         ordering = ['day_number']
+#         verbose_name_plural = "Itineraries"
+
+#     def __str__(self):
+#         return f"Day {self.day_number}: {self.title} - {self.travel_package}"

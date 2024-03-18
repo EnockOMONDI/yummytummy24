@@ -1,9 +1,10 @@
-from django.shortcuts import render, get_object_or_404 ,redirect
+
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponseNotFound, JsonResponse
 from django.db import models
+from django.shortcuts import redirect
 from django.contrib import messages
 from django.template.loader import render_to_string
 from django.conf import settings
@@ -786,13 +787,15 @@ def cart_view(request):
     main_cart_total = 0
     main_cart_total_item = 0
     # tax_rate = 0
-    
+
     try:
         location_country = request.session['location_country']
         tax_country = TaxRate.objects.filter(country=location_country).first()
-        tax_rate = tax_country.rate / 100
-        # print("tax_rate =====================", tax_rate)
-        # print("location_country =====================", location_country)
+        if tax_country is not None:
+            tax_rate = tax_country.rate / 100
+        else:
+            # Handle the case where tax_country is None
+            tax_rate = 0  # Or any default value you want
         
     except:
         location_country = "United States"
@@ -1052,15 +1055,16 @@ def shipping_address(request):
     main_cart_total = 0
     main_cart_total_item = 0
     # tax_rate = 0
-    
     try:
         location_country = request.session['location_country']
         tax_country = TaxRate.objects.filter(country=location_country).first()
-        tax_rate = tax_country.rate / 100
-        # print("tax_rate =====================", tax_rate)
-        # print("location_country =====================", location_country)
-        
+        if tax_country is not None:
+            tax_rate = tax_country.rate / 100
+        else:
+            # Handle the case where tax_country is None
+            tax_rate = 0  # Or any default value you want
     except:
+        # Exception handling code
         location_country = "United States"
         tax_country = TaxRate.objects.filter(country=location_country).first()
         tax_rate = tax_country.rate / 100
@@ -1230,8 +1234,8 @@ def shipping_address(request):
                 
                
                 main_tax_fee_item = main_cart_total_item * tax_rate
-                print("main_tax_fee_item ========================", main_tax_fee_item)
-                print("service_fee_amount ========================", service_fee_amount_)
+                # print("main_tax_fee_item ========================", main_tax_fee_item)
+                # print("service_fee_amount ========================", service_fee_amount_)
                 
                 
                 grand_total = float(item['qty']) * float(item['price']) + float(item_shipping) + float(main_tax_fee_item) + float(service_fee_amount_)
